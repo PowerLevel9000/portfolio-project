@@ -11,9 +11,22 @@ nav {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 30px;
   line-height: 20px;
   color: #6070FF;
   align-items: center;
   justify-content: center;
+  margin-left: 10px;
+}
+
+.logo:hover {
+  transform: scale(.9);
+}
+
+nav .menu { 
+  margin-right: 20px;
+}
+
+.menu:hover { 
+  transform: scale(1);
 }
