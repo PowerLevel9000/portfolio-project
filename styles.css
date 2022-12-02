@@ -1,8 +1,13 @@
+:root{
+  --theame-color: #6070FF;
+}
+
 nav {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  width: 340px;
   
 }
 
@@ -13,7 +18,7 @@ nav {
   font-weight: 700;
   font-size: 30px;
   line-height: 20px;
-  color: #6070FF;
+  color: var(--theame-color);
   align-items: center;
   justify-content: center;
   margin-left: 10px;
@@ -29,4 +34,70 @@ nav .menu {
 
 .menu:hover { 
   transform: scale(1);
+}
+
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  background: url("intro-background.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 385px;
+  height: 822px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.solid-welcome {
+  width: 291;
+  height: 80px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 45px;
+  padding: 19px 20px 0px 20px;
+}
+
+.description {
+  width: 291px;
+  height: 146px;
+  margin-top: 95px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: #344563;
+  padding: 0 20px;
+    
+}
+
+
+.connect {
+  color: var(--theame-color);
+  padding: 10px 20px 5px 20px;
+}
+
+.connect:hover {
+  transform: scale(.9);
+}
+.social {
+  display: flex;
+  width: 150px;
+  font-size: large;
+  justify-content: space-around;
+  margin: 0 20px;
+}
+
+.social a {
+  color: #505F79;
+  padding: 5px;
+}
+
+.social a:hover{
+  border: 1px inset var(--theame-color);
+  border-radius: 20%;
 }
