@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 :root {
   --theame-color: #6070ff;
 }
@@ -10,7 +14,7 @@ nav {
   width: 340px;
 }
 
-.logo h2 {
+.logo h2 a {
   display: flex;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -21,6 +25,7 @@ nav {
   align-items: center;
   justify-content: center;
   margin-left: 10px;
+  text-decoration: none;
 }
 
 .logo:hover {
@@ -86,7 +91,8 @@ nav .menu {
   width: 150px;
   font-size: large;
   justify-content: space-around;
-  margin: 0 20px;
+  margin: 0 -20px;
+  list-style-type: none;
 }
 
 .social a {
