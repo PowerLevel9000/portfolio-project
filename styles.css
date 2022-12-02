@@ -1,5 +1,5 @@
-:root{
-  --theame-color: #6070FF;
+:root {
+  --theame-color: #6070ff;
 }
 
 nav {
@@ -7,13 +7,12 @@ nav {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 340px;
-  
+  width: 340px; 
 }
 
 .logo h2 {
   display: flex;
-  font-family: 'Poppins';
+  font-family: 'Poppins',sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -25,7 +24,7 @@ nav {
 }
 
 .logo:hover {
-  transform: scale(.9);
+  transform: scale(0.9);
 }
 
 nav .menu { 
@@ -35,7 +34,6 @@ nav .menu {
 .menu:hover { 
   transform: scale(1);
 }
-
 
 .introduction {
   display: flex;
@@ -53,7 +51,7 @@ nav .menu {
 .solid-welcome {
   width: 291;
   height: 80px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -65,16 +63,14 @@ nav .menu {
   width: 291px;
   height: 146px;
   margin-top: 95px;
-  font-family: 'Poppins';
+  font-family: 'Poppins',sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 25px;
   color: #344563;
-  padding: 0 20px;
-    
+  padding: 0px 20px; 
 }
-
 
 .connect {
   color: var(--theame-color);
@@ -82,8 +78,9 @@ nav .menu {
 }
 
 .connect:hover {
-  transform: scale(.9);
+  transform: scale(0.9);
 }
+
 .social {
   display: flex;
   width: 150px;
@@ -93,11 +90,11 @@ nav .menu {
 }
 
 .social a {
-  color: #505F79;
+  color: #505f79;
   padding: 5px;
 }
 
-.social a:hover{
+.social a:hover {
   border: 1px inset var(--theame-color);
   border-radius: 20%;
 }
