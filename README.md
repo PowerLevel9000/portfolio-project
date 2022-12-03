@@ -143,11 +143,17 @@ To run tests
     --on AS Pathak 
     --on let's connect
     --on social icons
+    --on see project to have a look of my projects
   
   -- click on in desktop mode or click in mobile mode 
     --on let's connect : to mail me 
     --on social icons : to redirect on my respective social sites some, proffesional and some unproffesional
 ```
+
+#things not working
+> my resume button : it is just because i used to change my resume regularly
+> dropdowns of About myself section
+> this is not responsive project in big screen as this is mobile version
 
 
 <!--
@@ -189,9 +195,10 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[adding of my projects link and pictures]**
-- [ ] **[footer form]**
+- [ ] **[i will imppliment some javascript actions]**
+- [ ] **[will update some feature in footer]**
 - [ ] **[my coding languages]**
+- [ ] **[fix some wired behaviour in diffrent screens which is not in project requirement]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
