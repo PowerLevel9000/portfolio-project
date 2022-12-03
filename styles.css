@@ -155,12 +155,12 @@ main {
 .project-title {
   width: 295px;
   height: 80px;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 30px;
-  color: #172B4D;
+  color: #172b4d;
   margin: 0 0;
 }
 
@@ -193,8 +193,7 @@ main {
 
 .tech li {
   width: 45px;
-  background-color: #EBEBFF;
-  ;
+  background-color: #ebebff;
   padding: 5px;
   border-radius: 25px;
   color: #6070ff;
@@ -212,13 +211,13 @@ main {
 }
 
 .aboutme h2 {
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   margin: 200px 0 5px 20px;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .info2 {
@@ -277,7 +276,7 @@ footer div {
   margin-top: 100px;
 }
 
-footer div h2 {
+.contact-me{
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -287,7 +286,7 @@ footer div h2 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 footer div p {
@@ -300,7 +299,7 @@ footer div p {
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 footer fieldset {
@@ -350,13 +349,11 @@ button {
   width: 93px;
   height: 48px;
   border: 1px solid #7f8cff;
-  ;
   border-radius: 8px;
   font-family: 'Poppins', sans-serif;
   margin-left: 20px;
   margin-top: 20px;
   color: #7f8cff;
-  
 }
 
 button:hover {
@@ -364,6 +361,4 @@ button:hover {
   color: #fff;
   box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
   border-radius: 8px;
-  
 }
-
