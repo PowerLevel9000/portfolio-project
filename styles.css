@@ -24,7 +24,7 @@ nav {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 18px;
   line-height: 20px;
   color: var(--theame-color);
   align-items: center;
@@ -56,9 +56,8 @@ main {
   flex-direction: column;
   background: url("intro-background.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   position: absolute;
-  width: 95%;
   height: 822px;
   margin: 0;
   padding: 0;
@@ -73,25 +72,29 @@ main {
   font-weight: 700;
   font-size: 26px;
   line-height: 45px;
-  padding: 19px 20px 0 20px;
+  padding: 73px 20px 0 20px;
 }
 
 .description {
   width: 95%;
   height: auto;
-  margin-top: 95px;
+  margin-top: 111px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 17px;
-  line-height: 25px;
+  line-height: 26px;
   color: #344563;
   padding: 0 20px;
 }
 
-.connect {
+.connect h2, .con {
   color: var(--theame-color);
-  padding: 10px 20px 5px 20px;
+  margin-top: 0px;
+  padding: 0px 20px 5px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
 }
 
 .connect:hover {
@@ -100,11 +103,13 @@ main {
 
 .social {
   display: flex;
-  width: 150px;
-  font-size: large;
-  justify-content: space-around;
+  width: 197px;
+  height: 20px;
+  font-size: 25px;
+  justify-content: space-between;
   margin: 0 -20px;
   list-style-type: none;
+  border-bottom-left-radius: 25px;
 }
 
 .social a {
@@ -121,7 +126,7 @@ main {
   display: grid;
   width: 100%;
   height: auto;
-  margin: 500px 10px 0 10px;
+  margin: 615px 10px 0 10px;
   position: absolute;
   border: 1px soli #344563;
   row-gap: 20px;
@@ -154,50 +159,99 @@ main {
 
 .project-title {
   width: 295px;
-  height: 80px;
+  height: 36px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
-  line-height: 30px;
+  line-height: 44px;
   color: #172b4d;
   margin: 0 0;
 }
 
 .project-maker {
   display: flex;
-  width: 90%;
+  width: 80%;
   justify-content: space-between;
-  margin-left: 0;
-  padding: 0;
+  margin: 25px 0 25px -40px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 16px;
+  color: #7a869a;
 }
 
 .project-owner {
   list-style-type: none;
-  font-size: large;
-  font-weight: bold;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 16px;
+  color: #344563;
 }
 
 .info {
   margin-top: 10px;
   padding-left: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #344563;
 }
 
 .tech {
   display: flex;
-  width: 40%;
+  width: 70%;
   margin: 0 20px 0 -40px;
   list-style-type: none;
   justify-content: space-between;
 }
 
 .tech li {
-  width: 45px;
+  width: 65px;
+  height: 13px;
+  display: flex;
   background-color: #ebebff;
-  padding: 5px;
-  border-radius: 25px;
+  padding: 11px;
+  border-radius: 10px;
+  letter-spacing: 0.03em;
   color: #6070ff;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  margin-left: 0;
+}
+
+button {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 12px;
+  width: 120px;
+  height: 43px;
+  border: 1px solid #7f8cff;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  margin-left: 0;
+  margin-top: 45px;
+  color: #7f8cff;
+}
+
+a {
+  text-decoration: none;
+}
+
+button:hover {
+  background: #6070ff;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
 }
 
 .aboutme {
@@ -205,7 +259,7 @@ main {
   flex-direction: column;
   width: 95%;
   height: 1263px;
-  margin: 3180px 0 0 20px;
+  margin: 3400px 0 0 20px;
   background: #fff;
   border-radius: 0 100px 0 0;
 }
@@ -223,6 +277,9 @@ main {
 .info2 {
   margin-top: 10px;
   padding-left: 10px;
+  color: #344563;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .skills {
@@ -240,21 +297,30 @@ main {
   float: right;
 }
 
-.skills li {
-  border-bottom: 1px solid;
+.right{
+  margin-right: 20px;
 }
 
-.languages {
-  border-color: transparent;
+.rotate{
+  transform: rotate(-90deg);
 }
+
 
 .languages li {
   list-style-type: none;
   display: flex;
   align-items: center;
   border-color: transparent;
-  margin-left: -50px;
   margin-top: 20px;
+  margin: 10px 20px 10px -45px;
+  background-color: #eaeaf3;
+  border-radius: 8px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.languages img {
+  align-items: center;
 }
 
 .languages li span {
@@ -336,29 +402,4 @@ footer textarea {
 footer textarea::placeholder {
   padding-left: 10px;
   padding-top: 10px;
-}
-
-button {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  background-color: #fff;
-  padding: 12px;
-  gap: 10px;
-  width: 93px;
-  height: 48px;
-  border: 1px solid #7f8cff;
-  border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
-  margin-left: 20px;
-  margin-top: 20px;
-  color: #7f8cff;
-}
-
-button:hover {
-  background: #6070ff;
-  color: #fff;
-  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
-  border-radius: 8px;
 }
