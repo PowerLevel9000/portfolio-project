@@ -254,6 +254,11 @@ button:hover {
   border-radius: 8px;
 }
 
+.resume {
+  width: 152px;
+  margin-left: 20px;
+}
+
 .aboutme {
   display: flex;
   flex-direction: column;
