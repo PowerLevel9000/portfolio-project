@@ -88,7 +88,8 @@ main {
   padding: 0 20px;
 }
 
-.connect h2, .con {
+.connect h2,
+.con {
   color: var(--theame-color);
   margin-top: 0px;
   padding: 0px 20px 5px 20px;
@@ -297,14 +298,13 @@ button:hover {
   float: right;
 }
 
-.right{
+.right {
   margin-right: 20px;
 }
 
-.rotate{
+.rotate {
   transform: rotate(-90deg);
 }
-
 
 .languages li {
   list-style-type: none;
