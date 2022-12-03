@@ -247,8 +247,6 @@ button {
   color: #7f8cff;
 }
 
-
-
 button:hover {
   background: #6070ff;
   color: #fff;
@@ -295,11 +293,8 @@ button:hover {
   line-height: 24px;
 }
 
-.skills .right {
-  float: right;
-}
-
 .right {
+  float: right;
   margin-right: 20px;
 }
 
@@ -312,7 +307,6 @@ button:hover {
   display: flex;
   align-items: center;
   border-color: transparent;
-  margin-top: 20px;
   margin: 10px 20px 10px -45px;
   background-color: #eaeaf3;
   border-radius: 8px;
