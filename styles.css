@@ -15,8 +15,10 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin: 0 auto 0 auto;
   justify-content: space-between;
-  width: 95%;
+  width: 100%;
+  max-width: 558px;
 }
 
 a {
@@ -59,12 +61,13 @@ main {
   flex-direction: column;
   background: url("intro-background.png");
   background-repeat: no-repeat;
-  background-size: 100%;
-  position: absolute;
+  background-size: clamp(50px, 100%, 558px) 550px;
   height: 822px;
-  margin: 0;
+  max-width: 558px;
+  margin: 0 auto 0 auto;
   padding: 0;
   border: 0;
+  align-content: center;
 }
 
 .solid-welcome {
@@ -129,10 +132,9 @@ main {
 .projects {
   display: grid;
   width: 100%;
-  height: auto;
-  margin: 615px 10px 0 10px;
-  position: absolute;
-  border: 1px soli #344563;
+  max-width: 558px;
+  height: 580px;
+  margin: -220px auto 0 auto;
   row-gap: 20px;
 }
 
@@ -263,8 +265,9 @@ button:hover {
   display: flex;
   flex-direction: column;
   width: 95%;
+  max-width: 558px;
   height: 1263px;
-  margin: 3400px 0 0 20px;
+  margin: 2200px auto 0 auto;
   background: #fff;
   border-radius: 0 100px 0 0;
 }
@@ -328,11 +331,10 @@ button:hover {
 }
 
 footer {
-  margin-top: -100px;
   width: 100%;
+  max-width: 558px;
   height: 779px;
-  left: 20px;
-  top: 4200px;
+  margin: -100px auto 0 auto;
   background: url(media/footer-layer.png) right top no-repeat, url(media/footer-background.png) right top no-repeat;
   background-size: 75% 100%, 100%;
   overflow: hidden;
