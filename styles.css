@@ -4,7 +4,7 @@ html {
 
 body {
   background-color: #f5f5f5;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 :root {
@@ -27,7 +27,7 @@ a {
 
 .logo a {
   display: flex;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -73,7 +73,7 @@ main {
 .solid-welcome {
   width: 291;
   height: 80px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -85,7 +85,7 @@ main {
   width: 95%;
   height: auto;
   margin-top: 111px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -166,7 +166,7 @@ main {
 .project-title {
   width: 295px;
   height: 36px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -241,7 +241,7 @@ button {
   height: 43px;
   border: 1px solid #7f8cff;
   border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 17px;
   font-weight: 500;
   margin-left: 0;
@@ -273,7 +273,7 @@ button:hover {
 }
 
 .aboutme h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -329,4 +329,67 @@ button:hover {
 .languages li span {
   margin-left: 20px;
 }
+footer {
+  width: 100%;
+  max-width: 558px;
+  height: 779px;
+  margin: -100px auto 0 auto;
+  background: url(media/footer-layer.png) right top no-repeat,
+    url(media/footer-background.png) right top no-repeat;
+  background-size: 75% 100%, 100%;
+  overflow: hidden;
+}
+footer div {
+  margin-top: 100px;
+}
+.contact-me {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+footer div p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+footer fieldset {
+  display: flex;
+  height: 300px;
+  flex-direction: column;
+  gap: 20px;
+  align-content: space-around;
+  margin-top: 50px;
+  border-color: transparent;
+}
+footer input {
+  height: 40px;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+footer input:hover {
+  transform: scale(1);
+}
+footer input:nth-of-type(3) {
+  width: 150px;
+  align-self: flex-start;
+}
 
+footer textarea {
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
