@@ -65,7 +65,7 @@ After you're finished please remove all the comments and instructions!
 
 ### Tech Stack <a name="tech-stack">CSS</a>
 
-> It just simple working with html- css (flex-box)
+> It just simple working with html- css (flex-box grid)
 
 <!-- Features -->
 
@@ -78,6 +78,8 @@ After you're finished please remove all the comments and instructions!
 > ofcourse with no link as we don't have external home page but i think i should link it with my introduction part, I am looking for your suggestion 
 - **[socail icons]**
 > they have working links and tongleing on hover
+**[my projects]**
+**[contact me form]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,7 +113,7 @@ In order to run this project you need:
 
 ```
 <div align="center">
-<img src="testing\test-1.png" alt="logo" width="100%"  height="600" /> <br> <br>
+<!--<img src="testing\test-1.png" alt="logo" width="100%"  height="600" />--> <br> <br>
 <img src="testing\test-2.png" alt="logo" width="80%"  height="100"  />
 </div>
 <!--
@@ -187,6 +189,8 @@ Example:
 - GitHub: [@PowerLevel9000](https://github.com/githubhandle)
 - Twitter: [@adarsh809080adi](https://twitter.com/twitterhandle)
 
+👤 **Author2**
+- GitHub: [@zewdu444](https://github.com/zewdu444)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -197,7 +201,6 @@ Example:
 > Describe 1 - 3 features you will add to the project.
 
 - [ ] **[i will imppliment some javascript actions]**
-- [ ] **[will update some feature in footer]**
 - [ ] **[my coding languages]**
 - [ ] **[fix some wired behaviour in diffrent screens which is not in project requirement]**
 
@@ -208,6 +211,8 @@ Example:
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
+
+contribution is made by author 2
 
 Feel free to check the issues and comment below
 
