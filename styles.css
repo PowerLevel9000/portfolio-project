@@ -329,6 +329,7 @@ button:hover {
 .languages li span {
   margin-left: 20px;
 }
+
 footer {
   width: 100%;
   max-width: 558px;
@@ -339,9 +340,11 @@ footer {
   background-size: 75% 100%, 100%;
   overflow: hidden;
 }
+
 footer div {
   margin-top: 100px;
 }
+
 .contact-me {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -354,6 +357,7 @@ footer div {
   text-align: center;
   color: #fff;
 }
+
 footer div p {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -366,6 +370,7 @@ footer div p {
   text-align: center;
   color: #fff;
 }
+
 footer fieldset {
   display: flex;
   height: 300px;
@@ -375,14 +380,17 @@ footer fieldset {
   margin-top: 50px;
   border-color: transparent;
 }
+
 footer input {
   height: 40px;
   border-radius: 10px;
   padding-left: 10px;
 }
+
 footer input:hover {
   transform: scale(1);
 }
+
 footer input:nth-of-type(3) {
   width: 150px;
   align-self: flex-start;
