@@ -344,7 +344,6 @@ footer {
   margin: -100px auto 0 auto;
   background: url(media/footer-layer.png) right top no-repeat, url(media/footer-background.png) right top no-repeat;
   background-size: 75% 100%, 100%;
-  margin-right: 0;
   overflow: hidden;
 }
 
