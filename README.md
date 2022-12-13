@@ -189,8 +189,11 @@ Example:
 - GitHub: [@PowerLevel9000](https://github.com/githubhandle)
 - Twitter: [@adarsh809080adi](https://twitter.com/twitterhandle)
 
-👤 **Author2**
+👤 **collaborator**
 - GitHub: [@zewdu444](https://github.com/zewdu444)
+
+👤 **collaborator**
+- GitHub: [@Kingnoel](https://github.com/kingno3l)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
