@@ -84,7 +84,6 @@ main {
 }
 
 .description {
- /* width: 95%;*/
   height: auto;
   margin-top: 111px;
   font-family: "Poppins", sans-serif;
@@ -233,7 +232,8 @@ main {
   margin-left: 0;
 }
 
-button, .submit {
+button,
+.submit {
   box-sizing: border-box;
   display: flex;
   align-items: center;
@@ -251,11 +251,12 @@ button, .submit {
   color: #7f8cff;
 }
 
-.submit{
+.submit {
   justify-content: center;
 }
 
-button, .submit:hover {
+button,
+.submit:hover {
   background: #6070ff;
   color: #fff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
