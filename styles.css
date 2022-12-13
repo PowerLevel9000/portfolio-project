@@ -5,6 +5,8 @@ html {
 body {
   background-color: #f5f5f5;
   font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 :root {
@@ -82,7 +84,7 @@ main {
 }
 
 .description {
-  width: 95%;
+ /* width: 95%;*/
   height: auto;
   margin-top: 111px;
   font-family: "Poppins", sans-serif;
@@ -231,7 +233,7 @@ main {
   margin-left: 0;
 }
 
-button {
+button, .submit {
   box-sizing: border-box;
   display: flex;
   align-items: center;
@@ -249,7 +251,11 @@ button {
   color: #7f8cff;
 }
 
-button:hover {
+.submit{
+  justify-content: center;
+}
+
+button, .submit:hover {
   background: #6070ff;
   color: #fff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
@@ -337,6 +343,7 @@ footer {
   margin: -100px auto 0 auto;
   background: url(media/footer-layer.png) right top no-repeat, url(media/footer-background.png) right top no-repeat;
   background-size: 75% 100%, 100%;
+  margin-right: 0;
   overflow: hidden;
 }
 
@@ -384,6 +391,7 @@ footer input {
   height: 40px;
   border-radius: 10px;
   padding-left: 10px;
+  border-color: transparent;
 }
 
 footer input:hover {
