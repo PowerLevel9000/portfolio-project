@@ -20,7 +20,6 @@ nav {
   margin: 0 auto 0 auto;
   justify-content: space-between;
   width: 100%;
-  max-width: 558px;
 }
 
 a {
@@ -44,6 +43,10 @@ a {
   transform: scale(0.9);
 }
 
+nav .desk {
+  display: none;
+}
+
 nav .menu {
   margin-right: 20px;
 }
@@ -51,6 +54,7 @@ nav .menu {
 .menu:hover {
   transform: scale(1);
 }
+
 
 main {
   display: flex;
@@ -64,8 +68,8 @@ main {
   background: url("intro-background.png");
   background-repeat: no-repeat;
   background-size: clamp(50px, 100%, 558px) 550px;
+  width: 100%;
   height: 822px;
-  max-width: 558px;
   margin: 0 auto 0 auto;
   padding: 0;
   border: 0;
@@ -85,7 +89,7 @@ main {
 
 .description {
   height: auto;
-  margin-top: 111px;
+  margin-top: 99px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -130,12 +134,13 @@ main {
   border-radius: 20%;
 }
 
+
+
 .projects {
   display: grid;
   width: 100%;
-  max-width: 558px;
   height: 580px;
-  margin: -220px auto 0 auto;
+  margin: 0 auto 0 auto;
   row-gap: 20px;
 }
 
@@ -151,14 +156,11 @@ main {
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+  margin: 0 auto 0 auto;
 }
 
-.project img {
+.project img, iframe {
   width: 100%;
-  max-width: 600px;
   height: 220px;
   margin: 10px 0;
   border-radius: 20px;
@@ -255,7 +257,7 @@ button,
   justify-content: center;
 }
 
-button,
+button:hover,
 .submit:hover {
   background: #6070ff;
   color: #fff;
@@ -272,7 +274,6 @@ button,
   display: flex;
   flex-direction: column;
   width: 95%;
-  max-width: 558px;
   height: 1263px;
   margin: 2200px auto 0 auto;
   background: #fff;
@@ -339,7 +340,6 @@ button,
 
 footer {
   width: 100%;
-  max-width: 558px;
   height: 779px;
   margin: -100px auto 0 auto;
   background: url(media/footer-layer.png) right top no-repeat, url(media/footer-background.png) right top no-repeat;
@@ -407,4 +407,72 @@ footer textarea {
   border-radius: 10px;
   padding-left: 10px;
   padding-top: 10px;
+}
+
+@media screen and (min-width:376px) {
+  nav {
+    width: 90%;
+    padding: 0 100px;
+  }
+
+  nav .desk {
+    display: flex;
+    list-style: none;
+  }
+
+  nav li {
+    margin: 0 2em;
+    color: #344563;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .introduction {
+    background: url(media/intro-background-desk.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid;
+    margin: 0;
+  }
+
+  .intro {
+    width: 80%;
+    margin: 0 auto 0 18%;
+  }
+
+  .description {
+    width: 80%;
+  }
+
+  .solid-welcome {
+    margin-top: 108px;
+  }
+
+  .intro {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  }
+
+  .project{
+    width: 70%;
+    height: auto;
+    flex-direction: row;
+  }
+
+  .project div {
+    margin-top: -68px;
+    margin-left: 32px;
+  }
+
+  .project:nth-of-type(even) {
+    flex-direction: row-reverse;
+  }
+
+  .project img, iframe {
+    height: 450px;
+  }
+
 }
