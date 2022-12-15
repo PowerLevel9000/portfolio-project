@@ -13,7 +13,7 @@ body {
   --theame-color: #6070ff;
 }
 
-/*navingation bar*/
+/* navingation bar */
 
 nav {
   display: flex;
@@ -63,7 +63,7 @@ main {
   align-content: center;
 }
 
-/*introduction part*/
+/* introduction part */
 
 .introduction {
   display: flex;
@@ -136,7 +136,7 @@ main {
   border-radius: 20%;
 }
 
-/*project cards*/
+/* project cards */
 
 .projects {
   display: grid;
@@ -412,9 +412,9 @@ footer textarea {
   padding-top: 10px;
 }
 
-@media screen and (min-width:376px) {
+@media screen and (min-width: 376px) {
 
-  /*navigation bar*/
+  /* navigation bar */
   nav {
     width: 90%;
     padding: 0 100px;
@@ -434,7 +434,7 @@ footer textarea {
     display: none;
   }
 
-   /*introduction part*/
+  /* introduction part */
 
   .introduction {
     background: url(media/intro-background-desk.svg);
@@ -466,9 +466,9 @@ footer textarea {
     align-self: center;
   }
 
-   /*projetcs*/
-  
-  .projects{
+  /* projetcs */
+
+  .projects {
     margin-top: 142px;
   }
 
@@ -494,32 +494,32 @@ footer textarea {
     height: 450px;
     border-radius: 8px;
   }
-  
-  .project-title{
+
+  .project-title {
     display: inline-block;
   }
 
-  .project-maker{
+  .project-maker {
     width: 69%;
   }
 
-  /*about me*/
+  /* about me */
 
-  .aboutme{
+  .aboutme {
     flex-direction: row;
     padding: 50px;
   }
 
-  .intro2{
+  .intro2 {
     width: 45%;
   }
-  
+
   .experince {
     width: 45%;
     margin-top: 163px;
   }
 
-  .languages{
+  .languages {
     display: flex;
     margin-left: 0;
   }
