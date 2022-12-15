@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: #f5f5f5;
+  background-color: #f1f1f1;
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
@@ -12,6 +12,8 @@ body {
 :root {
   --theame-color: #6070ff;
 }
+
+/*navingation bar*/
 
 nav {
   display: flex;
@@ -55,24 +57,24 @@ nav .menu {
   transform: scale(1);
 }
 
-
 main {
   display: flex;
   flex-direction: column;
   align-content: center;
 }
 
+/*introduction part*/
+
 .introduction {
   display: flex;
   flex-direction: column;
-  background: url("intro-background.png");
+  background: #fff, url("intro-background.png");
   background-repeat: no-repeat;
-  background-size: clamp(50px, 100%, 558px) 550px;
+  background-size: 100%, 100%;
   width: 100%;
-  height: 822px;
+  height: 100vh;
   margin: 0 auto 0 auto;
   padding: 0;
-  border: 0;
   align-content: center;
 }
 
@@ -134,7 +136,7 @@ main {
   border-radius: 20%;
 }
 
-
+/*project cards*/
 
 .projects {
   display: grid;
@@ -159,7 +161,8 @@ main {
   margin: 0 auto 0 auto;
 }
 
-.project img, iframe {
+.project img,
+iframe {
   width: 100%;
   height: 220px;
   margin: 10px 0;
@@ -167,7 +170,7 @@ main {
 }
 
 .project-title {
-  width: 295px;
+  width: auto;
   height: 36px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -410,6 +413,8 @@ footer textarea {
 }
 
 @media screen and (min-width:376px) {
+
+  /*navigation bar*/
   nav {
     width: 90%;
     padding: 0 100px;
@@ -429,12 +434,17 @@ footer textarea {
     display: none;
   }
 
+   /*introduction part*/
+
   .introduction {
     background: url(media/intro-background-desk.svg);
+    background-color: #fff;
     background-size: cover;
     background-repeat: no-repeat;
-    border: 1px solid;
-    margin: 0;
+    height: 120vh;
+    margin-top: 0;
+    overflow: visible;
+    border-radius: 0 0 0 150px;
   }
 
   .intro {
@@ -456,10 +466,17 @@ footer textarea {
     align-self: center;
   }
 
-  .project{
+   /*projetcs*/
+  
+  .projects{
+    margin-top: 142px;
+  }
+
+  .project {
     width: 70%;
     height: auto;
     flex-direction: row;
+    margin-bottom: 142px;
   }
 
   .project div {
@@ -471,8 +488,47 @@ footer textarea {
     flex-direction: row-reverse;
   }
 
-  .project img, iframe {
+  .project img,
+  iframe {
+    width: 85%;
     height: 450px;
+    border-radius: 8px;
+  }
+  
+  .project-title{
+    display: inline-block;
   }
 
+  .project-maker{
+    width: 69%;
+  }
+
+  /*about me*/
+
+  .aboutme{
+    flex-direction: row;
+    padding: 50px;
+  }
+
+  .intro2{
+    width: 45%;
+  }
+  
+  .experince {
+    width: 45%;
+    margin-top: 163px;
+  }
+
+  .languages{
+    display: flex;
+    margin-left: 0;
+  }
+
+
+  .languages li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+  }
 }
