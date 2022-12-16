@@ -103,6 +103,16 @@ main {
   padding: 0 20px;
 }
 
+.aboutme h2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin: 200px 0 5px 20px;
+  color: #172b4d;
+}
+
 .connect h2,
 .con {
   color: var(--theame-color);
@@ -288,16 +298,6 @@ button:hover,
   border-radius: 0 100px 0 0;
 }
 
-.aboutme h2 {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  margin: 200px 0 5px 20px;
-  color: #172b4d;
-}
-
 .info2 {
   margin-top: 10px;
   padding-left: 10px;
@@ -432,6 +432,7 @@ footer textarea {
     margin-right: 20%;
     height: fit-content;
   }
+
   nav {
     width: 100%;
     justify-content: space-between;
@@ -456,6 +457,16 @@ footer textarea {
     margin-bottom: 0;
     transition: all 0.5s ease-out;
     border-radius: 10px;
+  }
+
+  .languages li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 120px;
+    width: 25%;
+    margin: 20px;
   }
 
   nav li:hover {
@@ -583,16 +594,6 @@ footer textarea {
     padding-left: 0;
   }
 
-  .languages li {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-around;
-    height: 120px;
-    width: 25%;
-    margin: 20px;
-  }
-
   .languages li:last-of-type {
     min-width: 114px;
   }
@@ -636,5 +637,4 @@ footer textarea {
   .mobi {
     display: none;
   }
-
 }
