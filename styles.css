@@ -111,10 +111,12 @@ main {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
+  transition: all 0.2s ease-out;
 }
 
-.connect:hover {
-  transform: scale(0.9);
+.connect h2:hover,
+.con:hover {
+  font-size: 14px;
 }
 
 .social {
@@ -256,6 +258,7 @@ button,
   margin-left: 0;
   margin-top: 45px;
   color: #7f8cff;
+  transition: all 0.5s ease-out;
 }
 
 .submit {
@@ -423,11 +426,17 @@ footer textarea {
   }
 
   /* navigation bar */
+  nav ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 20%;
+    height: fit-content;
+  }
   nav {
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #fff;
-    margin: 0;
+    padding: 0 10% 0 10%;
   }
 
   nav .desk {
@@ -436,7 +445,22 @@ footer textarea {
   }
 
   nav li {
+    display: flex;
     margin: 0 2em;
+    height: 5vh;
+    align-items: center;
+    justify-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    transition: all 0.5s ease-out;
+    border-radius: 10px;
+  }
+
+  nav li:hover {
+    background-color: var(--theame-color);
+    color: #fff;
   }
 
   .menu {
@@ -613,19 +637,4 @@ footer textarea {
     display: none;
   }
 
-  .navlink {
-    color: #344563;
-  }
-
-  .navlink:hover {
-    color: var(--theame-color);
-  }
-
-  .navlink:visited {
-    color: #344563;
-  }
-
-  .navlink:active {
-    color: red;
-  }
 }
