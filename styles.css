@@ -436,7 +436,6 @@ footer textarea {
 
   nav li {
     margin: 0 2em;
-    color: #344563;
   }
 
   .menu {
@@ -462,11 +461,18 @@ footer textarea {
   }
 
   .description {
-    width: 80%;
+    width: 70.5%;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 100px;
   }
 
   .solid-welcome {
     margin-top: 108px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
   }
 
   .intro {
@@ -580,8 +586,24 @@ footer textarea {
     margin-right: auto;
   }
 
-  .two {
+  .mobi {
     display: none;
+  }
+
+  .navlink {
+    color: #344563;
+  }
+
+  .navlink:hover {
+    color: var(--theame-color);
+  }
+
+  .navlink:visited {
+    color: #344563;
+  }
+
+  .navlink:active {
+    color: red;
   }
 
 }
