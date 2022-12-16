@@ -563,7 +563,7 @@ footer textarea {
     height: 100vh;
     background: url(media/footerdesk.svg), url(media/layerdesktop.svg);
     background-size: cover, cover;
-    margin-top: -100px;
+    margin-top: -70px;
   }
 
   footer input {
