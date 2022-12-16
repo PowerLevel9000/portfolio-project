@@ -527,9 +527,6 @@ footer textarea {
     max-width: 328px;
     justify-content: left;
   }
-  .tech li:last-of-type {
-    margin-left: 20px;
-  }
 
   /* about me */
 
@@ -576,12 +573,16 @@ footer textarea {
     min-width: 114px;
   }
 
+ .tech li:last-of-type {
+    margin-left: 20px;
+  }
+
   .languages li span {
     margin-left: 10px;
   }
 
   .skills hr {
-    color: #DFE1E6;
+    color: #dfe1e6;
     width: 100%;
   }
 
