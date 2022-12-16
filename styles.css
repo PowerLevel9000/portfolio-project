@@ -156,7 +156,7 @@ main {
   padding: 15px;
   row-gap: 10px;
   width: 95%;
-  height: 650px;
+  height: 140vh;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
@@ -166,7 +166,7 @@ main {
 .project img,
 iframe {
   width: 100%;
-  height: 220px;
+  height: 60vh;
   margin: 10px 0;
   border-radius: 20px;
 }
@@ -280,7 +280,7 @@ button:hover,
   flex-direction: column;
   width: 95%;
   height: 1263px;
-  margin: 2200px auto 0 auto;
+  margin: 3100px auto 0 auto;
   background: #fff;
   border-radius: 0 100px 0 0;
 }
@@ -345,7 +345,7 @@ button:hover,
 
 footer {
   width: 100%;
-  height: 779px;
+  height: 99vh;
   margin: -100px auto 0 auto;
   background: url(media/footer-layer.png) right top no-repeat, url(media/footer-background.png) right top no-repeat;
   background-size: 75% 100%, 100%;
@@ -414,7 +414,7 @@ footer textarea {
   padding-top: 10px;
 }
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 769px) {
   header {
     width: 100%;
     position: fixed;
@@ -465,10 +465,14 @@ footer textarea {
   }
 
   .description {
-    width: 70.5%;
+    width: 86.5%;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
+    margin-top: 20px;
+  }
+
+  .well {
     margin-top: 100px;
   }
 
@@ -499,6 +503,7 @@ footer textarea {
 
   .project:nth-of-type(even) {
     flex-direction: row-reverse;
+    text-align: left;
   }
 
   .project img,
@@ -510,6 +515,7 @@ footer textarea {
 
   .project-title {
     display: inline-block;
+    margin-top: 30px;
   }
 
   .project-maker {
@@ -519,19 +525,25 @@ footer textarea {
 
   .tech {
     max-width: 328px;
+    justify-content: left;
+  }
+  .tech li:last-of-type {
+    margin-left: 20px;
   }
 
   /* about me */
 
   .aboutme {
     width: 100%;
-    height: 120vh;
+    height: 140vh;
     flex-direction: row;
+    margin-top: 2100px;
   }
 
   .intro2 {
     width: 45%;
-    margin-left: auto;
+    margin-left: 5%;
+    margin-top: -58px;
   }
 
   .info2 {
@@ -540,8 +552,8 @@ footer textarea {
 
   .experince {
     width: 45%;
-    margin-top: 163px;
-    margin-right: auto;
+    margin-top: 142px;
+    margin-right: 125px;
   }
 
   .languages {
@@ -554,18 +566,30 @@ footer textarea {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 20px;
+    justify-content: space-around;
+    height: 120px;
+    width: 25%;
+    margin: 20px;
+  }
+
+  .languages li:last-of-type {
+    min-width: 114px;
   }
 
   .languages li span {
-    margin-left: 0;
+    margin-left: 10px;
+  }
+
+  .skills hr {
+    color: #DFE1E6;
+    width: 100%;
   }
 
   footer {
     height: 100vh;
     background: url(media/footerdesk.svg), url(media/layerdesktop.svg);
     background-size: cover, cover;
-    margin-top: -70px;
+    margin-top: -60px;
   }
 
   footer input {
