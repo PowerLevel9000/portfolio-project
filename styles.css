@@ -70,7 +70,7 @@ main {
   flex-direction: column;
   background: #fff, url("intro-background.png");
   background-repeat: no-repeat;
-  background-size: 100%, 100%;
+  background-size: 100%, cover;
   width: 100%;
   height: 100vh;
   margin: 0 auto 0 auto;
@@ -414,10 +414,19 @@ footer textarea {
 
 @media screen and (min-width: 376px) {
 
+  header {
+    width: 100%;
+    position: fixed;
+    height: 1.5vh;
+    background-color: #fff;
+  }
+
   /* navigation bar */
   nav {
-    width: 90%;
-    padding: 0 100px;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #fff;
+    margin: 0;
   }
 
   nav .desk {
@@ -442,7 +451,7 @@ footer textarea {
     background-size: cover;
     background-repeat: no-repeat;
     height: 120vh;
-    margin-top: 0;
+    margin-top: 72px;
     overflow: visible;
     border-radius: 0 0 0 150px;
   }
@@ -473,7 +482,7 @@ footer textarea {
   }
 
   .project {
-    width: 70%;
+    width: 80%;
     height: auto;
     flex-direction: row;
     margin-bottom: 142px;
@@ -490,7 +499,7 @@ footer textarea {
 
   .project img,
   iframe {
-    width: 85%;
+    width: 50%;
     height: 450px;
     border-radius: 8px;
   }
@@ -500,30 +509,42 @@ footer textarea {
   }
 
   .project-maker {
-    width: 69%;
+    width: 95%;
+    max-width: 278px;
+  }
+
+  .tech {
+    max-width: 328px;
   }
 
   /* about me */
 
   .aboutme {
+    width: 100%;
+    height: 120vh;
     flex-direction: row;
-    padding: 50px;
   }
 
   .intro2 {
     width: 45%;
+    margin-left: auto;
+  }
+
+  .info2 {
+    width: 70%;
   }
 
   .experince {
     width: 45%;
     margin-top: 163px;
+    margin-right: auto;
   }
 
   .languages {
     display: flex;
     margin-left: 0;
+    padding-left: 0;
   }
-
 
   .languages li {
     display: flex;
@@ -531,4 +552,36 @@ footer textarea {
     align-items: flex-start;
     margin-left: 20px;
   }
+
+  .languages li span {
+    margin-left: 0;
+  }
+
+  footer {
+    height: 100vh;
+    background: url(media/footerdesk.svg), url(media/layerdesktop.svg);
+    background-size: cover, cover;
+    margin-top: -100px;
+  }
+
+  footer input {
+    height: 48px;
+    border-radius: 2px;
+  }
+
+  .formcon {
+    width: 38%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .submit {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .two {
+    display: none;
+  }
+
 }

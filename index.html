@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="styles.css">
   <script src="https://kit.fontawesome.com/b89b7c8adf.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins">
+  <link xmlns="http://www.w3.org/1999/xhtml" rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
@@ -247,23 +248,26 @@
 
     <!--footer - form-->
     <footer>
-      <div>
-        <h2 class="contact-me">Contact me</h2>
-        <p>
-          If you have an application you are interested in developing, a
-          feature that you need built or a project that needs coding. I&apos;d
-          love to help with it
-        </p>
+      <div class="formcon">
+        <div>
+          <h2 class="contact-me">Contact me</h2>
+          <p>
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I&apos;d
+            love to help with it
+          </p>
+        </div>
+        <form action="https://formspree.io/f/mzbwnrgy" method="post">
+          <fieldset>
+            <input name="name" type="text" id="name" placeholder="Yeremias" maxlength="30" required>
+            <input name="email" type="email" id="email" placeholder="natajayanj14@gmail.com" required>
+            <textarea name="message" id="massage" cols="30" rows="8" placeholder="Write your message here"
+              maxlength="500" required></textarea>
+            <input class="submit" type="submit" value="Get In Touch">
+          </fieldset>
+        </form>
       </div>
-      <form action="https://formspree.io/f/mzbwnrgy" method="post">
-        <fieldset>
-          <input name="name" type="text" id="name" placeholder="Yeremias" maxlength="30" required>
-          <input name="email" type="email" id="email" placeholder="natajayanj14@gmail.com" required>
-          <textarea name="message" id="massage" cols="30" rows="8" placeholder="Write your message here" maxlength="500"
-            required></textarea>
-          <input class="submit" type="submit" value="Get In Touch">
-        </fieldset>
-      </form>
+
     </footer>
 
   </main>
