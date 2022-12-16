@@ -68,7 +68,9 @@ main {
 .introduction {
   display: flex;
   flex-direction: column;
-  background: #fff, url("intro-background.png");
+  background: url("intro-background.png");
+  background-color: #fff;
+  border-radius: 0 0 0 25px;
   background-repeat: no-repeat;
   background-size: 100%, cover;
   width: 100%;

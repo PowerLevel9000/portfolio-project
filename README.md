@@ -115,6 +115,9 @@ In order to run this project you need:
 <div align="center">
 <!--<img src="testing\test-1.png" alt="logo" width="100%"  height="600" />--> <br> <br>
 <img src="testing\test-2.png" alt="logo" width="80%"  height="100"  />
+<img src="testing\desktop-img.png" alt="logo" width="80%"  />
+<img src="testing\mobile-img.png" alt="logo" width="80%"   />
+
 </div>
 <!--
 Example command:
