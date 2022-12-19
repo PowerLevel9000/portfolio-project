@@ -23,16 +23,16 @@ After you're finished please remove all the comments and instructions!
 -->
 
 <div align="center">
-
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse project week1\day3</b></h3>
+  <h3><b>Adarsh's Portfolio</b></h3>
 
 </div>
 
 <!-- TABLE OF CONTENTS -->
-<!--
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -41,7 +41,9 @@ After you're finished please remove all the comments and instructions!
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
@@ -55,31 +57,49 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [PORTFOLIO] <a name="about-project"></a>
+# 📖 Adarsh's Portfolio <a name="about-project"></a>
 
-> This is my personal portfolio
+> This project is all about me but still there are many things you should know about me and those are not mentioned here. wana talk face to face ?
 
-**[portfolio]** is a all about me and projects
+**Adarsh's Portfolio** is just a small introduction and limited skills mentioned there due to project design
 
-## 🛠 Built With <a name="built-with">HTML</a>
+## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack">CSS</a>
+### Tech Stack <a name="tech-stack"></a>
 
-> It just simple working with html- css (flex-box grid)
+> In this project me and my collaborators used many skills, tech and libraries
+
+<details>
+  <summary>Documentation</summary>
+  <ul>
+    <li><a href="https://html.com">HTML</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Styling</summary>
+  <ul>
+    <li><a href="https://www.w3.org">CSS</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Annimation</summary>
+  <ul>
+    <li><a href="https://michalsnik.github.io/aos/">Aos.js</a></li>
+  </ul>
+</details>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+> Following features you should observe
 
-- **[A soild introduction about myself]**
-- **[navigation bar with little intraction ]** 
-> ofcourse with no link as we don't have external home page but i think i should link it with my introduction part, I am looking for your suggestion 
-- **[socail icons]**
-> they have working links and tongleing on hover
-**[my projects]**
-**[contact me form]**
+- **Animation on scroll**
+- **button hovers**
+- **navigation bar fixed on scroll**
+- **navigation menu is clickable**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -87,38 +107,32 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<a href="https://powerlevel9000.github.io/portfolio-project/">live mobile demo</a> please open in mobile
-> work in progress 
+> This link will guide you to my project
 
-
+- [Live Demo Link](https://powerlevel9000.github.io/portfolio-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
-To get a local copy up and running, follow these steps.
+## 💻 Getting Started <a name="getting-started"></a>
+
+>For having local file and project you can fork this repo 
+
+>And for making changes you you should follow prerequisites
+
 
 ### Prerequisites
 
-In order to run this project you need:
+In order to edit this project you need:
 
-```
-  -- first get the local copy of index.html and styles.css
-  -- both files should be in same folder 
-  -- duble click on the index.html and open it in browser 
-  -- as this is a mobile verson it will display left side of your screen 
-  -- also if you want to see how it look in mobile follow few more steps
-    -- press F12 on your keyboard 
-    -- and make sure your devloper option have following setting turn on it should look as same as following images
+ - Any text editor such as note pad and word pad
+ - A web browser
 
-```
-<div align="center">
-<!--<img src="testing\test-1.png" alt="logo" width="100%"  height="600" />--> <br> <br>
-<img src="testing\test-2.png" alt="logo" width="80%"  height="100"  />
-<img src="testing\desktop-img.png" alt="logo" width="80%"  />
-<img src="testing\mobile-img.png" alt="logo" width="80%"   />
-
-</div>
+#### suggested 
+ - visual studio code
+ - atom 
+ - visual code 
 <!--
 Example command:
 
@@ -131,6 +145,8 @@ Example command:
 
 Clone this repository to your desired folder:
 
+ - click on index.html
+ - open in the browser
 <!--
 Example commands:
 
@@ -140,27 +156,40 @@ Example commands:
 ```
 --->
 
+<!--
+### Install
+
+Install this project with: -->
+
+<!--
+Example command:
+
+```sh
+  cd my-project
+  gem install
+```
+--->
+
+### Usage
+
+ Execute the following thing:
+ 
+ - See project buttons
+ - Navigation bar on desktop version
+<!--
+Example command:
+
+```sh
+  rails server
+```
+--->
 
 ### Run tests
 
-To run tests
-```
-  -- hover in desktop mode or click in mobile mode
-    --on AS Pathak 
-    --on let's connect
-    --on social icons
-    --on see project to have a look of my projects
-  
-  -- click on in desktop mode or click in mobile mode 
-    --on let's connect : to mail me 
-    --on social icons : to redirect on my respective social sites some, proffesional and some unproffesional
-```
-
-#things not working
-> my resume button : it is just because i used to change my resume regularly
-> dropdowns of About myself section
-> this is not responsive project in big screen as this is mobile version
-
+- Check whether animation is good or too much animation
+- check all the link on social icons are working or not 
+- also click on let's connect to mail me 
+- also i want to add call me button give suggestion 
 
 <!--
 Example command:
@@ -170,6 +199,11 @@ Example command:
 ```
 --->
 
+### Deployment
+
+You can deploy this project using:
+
+- for this repo and use git hub pages to deploy it 
 
 <!--
 Example:
@@ -185,18 +219,25 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> It's my solo project
+> Every small collaboration made by various authors  mentioned here 
 
-👤 **Author1**
+👤 **Adarsh Pathak**
 
 - GitHub: [@PowerLevel9000](https://github.com/githubhandle)
-- Twitter: [@adarsh809080adi](https://twitter.com/twitterhandle)
+- Twitter: [@PowerLevel9002](https://twitter.com/PowerLevel9002?t=AIuSN7mTxk5a_MWpLolEjA&s=09)
+- LinkedIn: [@Adarsh Pathak](https://www.linkedin.com/in/adarsh-pathak-56a831256/)
 
-👤 **collaborator**
+👤 **Rubén D. Pire**
+
+- GitHub: [@rpire](https://github.com/rpire)
+
+👤 **Author2**
+
 - GitHub: [@zewdu444](https://github.com/zewdu444)
 
-👤 **collaborator**
-- GitHub: [@Kingnoel](https://github.com/kingno3l)
+👤 **kingnoel**
+
+- GitHub: [@kingnoel](https://github.com/kingnoel)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -206,9 +247,9 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[i will imppliment some javascript actions]**
-- [ ] **[my coding languages]**
-- [ ] **[fix some wired behaviour in diffrent screens which is not in project requirement]**
+- [ ] **popup menu**
+- [ ] **more advance projects will be added there**
+- [ ] **work on styling and lenguages**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -218,22 +259,17 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-contribution is made by author 2
-
-Feel free to check the issues and comment below
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
-## ⭐️ Show your support <a name="support"></a>
+<!--## ⭐️ Show your support <a name="support"></a>
 
-> I am the solo learner before the microverse and i used to creat responsive desktop webpages 
+> 
 
-if you want to test some please connect through my instagram sorry i know instagram is not coporative app but still i have shown 
-all of my intrest and hobbies there
-
-also tell me about how to host my webpages for free
+If you like this project...-->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -241,14 +277,25 @@ also tell me about how to host my webpages for free
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> I have used figma font-awesome and my learning
+> Give credit to everyone who inspired your codebase.
 
+I would like to thank ruben for helping me 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
+## ❓ FAQ <a name="faq"></a>
 
+> ask questions to be here 
+
+- **[Question_1]**
+
+  - [Answer_1]
+
+- **[Question_2]**
+
+  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
