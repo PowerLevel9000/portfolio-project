@@ -43,6 +43,7 @@ a {
 
 .logo:hover {
   transform: scale(0.9);
+  color: #6070ff;;
 }
 
 nav .desk {
@@ -127,6 +128,7 @@ main {
 .connect h2:hover,
 .con:hover {
   font-size: 14px;
+  color: #6070ff;
 }
 
 .social {
@@ -470,7 +472,7 @@ footer textarea {
   }
 
   nav li:hover {
-    background-color: var(--theame-color);
+    background-color: #6070ff;
     color: #fff;
   }
 
