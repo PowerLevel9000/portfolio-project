@@ -425,6 +425,7 @@ footer textarea {
     position: fixed;
     height: 1.5vh;
     background-color: #fff;
+    z-index: 2;
   }
 
   /* navigation bar */
