@@ -9,7 +9,7 @@ navBtn.addEventListener('click', () => {
   menuButton.classList.toggle('fa-xmark');
 });
 
-navList.forEach(a => {
+navList.forEach((a) => {
   a.addEventListener('click', () => {
     if (overlay.classList.contains('desk1')) {
       overlay.classList.value = 'desk';
