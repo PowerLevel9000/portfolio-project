@@ -8,11 +8,12 @@ navBtn.addEventListener('click', () => {
   menuButton.classList.toggle('fa-bars');
   menuButton.classList.toggle('fa-xmark');
 });
-for (const a of navList) {
+
+navList.forEach(a => {
   a.addEventListener('click', () => {
-    if (overlay.classList.value === 'desk desk1') {
+    if (overlay.classList.contains('desk1')) {
       overlay.classList.value = 'desk';
       menuButton.classList.value = 'fa-solid fa-bars';
     }
   });
-}
+});
