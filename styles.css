@@ -15,12 +15,19 @@ body {
 
 /* navingation bar */
 
+header {
+  width: 100%;
+  display: block;
+  position: fixed;
+  background-color: #fff;
+}
+
 nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 0 auto 0 auto;
-  justify-content: space-between;
+  margin: 0 0 0 -50px;
+  justify-content: space-around;
   width: 100%;
 }
 
@@ -53,18 +60,64 @@ a {
 
 .logo:hover {
   transform: scale(0.9);
-  color: #6070ff;;
+  color: #6070ff;
+  ;
 }
 
 nav .desk {
   display: none;
 }
 
-nav .menu {
-  margin-right: 20px;
+nav .desk1 {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: rgba(96, 112, 255, .8);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  overflow-x: hidden;
+  transition: all 0.5s ease-out;
+  margin: 0 0 0 -40px;
+  overflow: hidden;
 }
 
-.menu:hover {
+nav .content {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  gap: 40px;
+  color: #fff;
+  align-items: flex-start;
+  width: 90%;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  margin: 50px;
+  list-style-type: none;
+}
+
+.content a {
+  color: white;
+}
+
+nav button {
+  z-index: 2;
+}
+
+
+.fa-xmark {
+  font-size: 20px;
+  line-height: 20px;
+  color: white;
+}
+
+#menu:hover {
   transform: scale(1);
 }
 
@@ -86,7 +139,7 @@ main {
   background-size: 100%, cover;
   width: 100%;
   height: 100vh;
-  margin: 0 auto 0 auto;
+  margin: 59px auto 0 auto;
   padding: 0;
   align-content: center;
 }
@@ -305,7 +358,7 @@ main button:hover,
   flex-direction: column;
   width: 95%;
   height: 1263px;
-  margin: 3500px auto 0 auto;
+  margin: 4300px auto 0 auto;
   background: #fff;
   border-radius: 0 100px 0 0;
 }
@@ -348,6 +401,8 @@ main button:hover,
   border-radius: 8px;
   padding-left: 10px;
   padding-top: 5px;
+  /* position: relative;
+  z-index: 1; */
 }
 
 .languages img {
@@ -455,12 +510,28 @@ footer textarea {
 
   nav .desk {
     display: flex;
-    list-style: none;
+    /* list-style: none; */
   }
+
+
+  .desk .content {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: var(--theame-color);
+    gap: 0;
+    font-size: 17px;
+    margin: 0 0 0 50px;
+  }
+  
+  .desk a {
+    color: var(--theame-color);
+  }
+
 
   nav li {
     display: flex;
-    margin: 0 2em;
+    margin: 0 1em;
     height: 5vh;
     align-items: center;
     justify-items: center;
@@ -471,6 +542,7 @@ footer textarea {
     transition: all 0.5s ease-out;
     border-radius: 10px;
   }
+
   nav button {
     display: none;
   }
