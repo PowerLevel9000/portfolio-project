@@ -474,6 +474,129 @@ footer textarea {
   padding-top: 10px;
 }
 
+.card-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(193, 199, 208, 70%);
+  height: 100vh;
+  z-index: 5;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  width: 70%;
+  height: 90vh;
+  /* overflow: scroll; */
+  z-index: 5;
+  background-color: #fff;
+  border-radius: 16px;
+}
+
+.card h3 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172B4D;
+  /* margin-left: 6.25%; */
+  margin: 0 auto 3.25% 6.25%;
+}
+
+.card img {
+  max-width: 700px;
+  width: 87.5%;
+  margin: 3.125% 6.25%;
+  height: 30%;
+  border-radius: inherit;
+}
+
+.card-cross {
+  /* align-self: flex-end; */
+  position: relative;
+  font-size: 20px;
+  color: #000;
+  width: 30px;
+  padding-top: 0;
+  transition: 0.3s;
+  top: 5%;
+  left: 88%;
+  height: 20px;
+  z-index: 5;
+}
+
+.card-cross:hover {
+  color: #1a2236;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  max-width: 249px;
+  justify-content: space-between;
+  padding: 0;
+  margin: 3.125% 10px 3.125% 6.25%;
+}
+
+.card-list li {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#card-description {
+  max-width: 700px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  margin: 3.125% 6.25%;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  max-width: 700px;
+  margin: 3.125% 6.5%;
+  height: fit-content;
+  gap: 10px;
+}
+
+.card-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #fff;
+  color: var(--theame-color);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  border: 2px solid var(--theame-color);
+  width: 100%;
+  height: 51px;
+  margin: 0;
+  transition: 0.3s;
+}
+
+.card-button:hover {
+  background-color: #1a2236;
+  color: #fff;
+}
+
+.invisible {
+  display: none !important;
+}
+
 @media screen and (min-width: 769px) {
   header {
     width: 100%;
