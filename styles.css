@@ -38,6 +38,7 @@ nav button {
   height: 12px;
   width: 18px;
   margin-right: 10px;
+  z-index: 2;
 }
 
 a {
@@ -60,7 +61,6 @@ a {
 .logo:hover {
   transform: scale(0.9);
   color: #6070ff;
-  ;
 }
 
 nav .desk {
@@ -75,7 +75,7 @@ nav .desk1 {
   z-index: 2;
   top: 0;
   left: 0;
-  background-color: rgba(96, 112, 255, .8);
+  background-color: rgba(96, 112, 255, 0.8);
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   overflow-x: hidden;
@@ -87,12 +87,12 @@ nav .desk1 {
 nav .content {
   display: flex;
   flex-direction: column;
-  padding: 0px;
+  padding: 0;
   gap: 40px;
   color: #fff;
   align-items: flex-start;
   width: 90%;
-  font-family: 'Poppins';
+  font-family: 'Poppins',sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -103,10 +103,6 @@ nav .content {
 
 .content a {
   color: white;
-}
-
-nav button {
-  z-index: 2;
 }
 
 .fa-xmark {
@@ -504,7 +500,6 @@ footer textarea {
 
   nav .desk {
     display: flex;
-    /* list-style: none; */
   }
 
   .desk .content {
