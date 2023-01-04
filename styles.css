@@ -899,9 +899,11 @@ footer textarea {
     margin-left: 4.17%;
   }
 
-  .card img {
+  .card-image {
     max-width: none;
     margin: 40px 4.17% 0 4.17%;
+    width: 88%;
+    height: 90vh;
   }
 
   #card-description {
