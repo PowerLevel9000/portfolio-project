@@ -571,7 +571,6 @@ footer textarea {
   /* i don't know why it is not working */
   font-size: 15px;
   line-height: 20px;
-  margin-left: 19px;
 }
 
 .card-list li:first-of-type {
@@ -627,7 +626,7 @@ footer textarea {
   background: #fff;
   color: var(--theame-color);
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-size: 19px;
   font-weight: 500;
   line-height: 24px;
   border: 2px solid var(--theame-color);
@@ -635,11 +634,16 @@ footer textarea {
   height: 51px;
   margin: 3.125% 0;
   transition: 0.3s;
+  padding: 0;
 }
 
 .card-button:hover {
   background-color: var(--theame-color);
   color: #fff;
+}
+
+.card .tech li {
+  margin-left: 10px;
 }
 
 .invisible {
