@@ -147,28 +147,7 @@ Clone this repository to your desired folder:
 
  - click on index.html
  - open in the browser
-<!--
-Example commands:
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
-
-<!--
-### Install
-
-Install this project with: -->
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
 
 ### Usage
 
