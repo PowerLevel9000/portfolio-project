@@ -14,7 +14,7 @@ html::-webkit-scrollbar {
 html::-webkit-scrollbar-thumb {
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 6px var(--theame-color);
-  background-color:#fff;
+  background-color: #fff;
 }
 
 body {
@@ -528,7 +528,7 @@ footer textarea {
   max-width: 700px;
   width: 87.5%;
   margin: 3.125% 6.25%;
-  height: 30%;
+  height: 35%;
   border-radius: inherit;
 }
 
@@ -553,9 +553,9 @@ footer textarea {
 .card-list {
   display: flex;
   flex-direction: row;
-  list-style-type: none;
   max-width: 249px;
   justify-content: space-between;
+  list-style-type: circle;
   padding: 0;
   margin: 3.125% 10px 3.125% 6.25%;
 }
@@ -563,6 +563,23 @@ footer textarea {
 .card-list li {
   display: flex;
   justify-content: space-evenly;
+  color: #7A869A;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  list-style-type: circle; /*i don't know why it is not working*/
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.card-list li:first-of-type {
+  list-style-type: none;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  color: #344563;
 }
 
 #card-description {
@@ -580,12 +597,15 @@ footer textarea {
   max-width: 330px;
   margin-left: -5%;
 }
+.horizontal {
+  display: none;
+}
 
 @media screen and (min-width:440px) {
   .card .tech {
     margin-left: 0;
   }
-    
+
 }
 
 .button-container {
@@ -887,23 +907,42 @@ footer textarea {
   }
 
   .card h3 {
-    font-size: 48px;
+    font-size: 40px;
     /* margin-bottom: 34px; */
     margin: 4.17%;
   }
 
   .card-list {
-    font-size: 16px;
-    max-width: none;
-    width: 33.7%;
+    font-size: 20px;
+    max-width: 342px;
+    width: 37.7%;
     margin-left: 4.17%;
+    margin-top: -28px;
   }
 
+  .card-iframe,
   .card-image {
     max-width: none;
     margin: 40px 4.17% 0 4.17%;
     width: 88%;
-    height: 90vh;
+    height: 87vh;
+  }
+
+  .card .tech {
+    max-width: none;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-left: -34px;
+  }
+
+  .popupFooter {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 125px;
+  }
+
+  .functionality {
+    margin-top: 62px;
   }
 
   #card-description {
@@ -926,7 +965,7 @@ footer textarea {
     width: 12px;
     background-color: #F5F5F5;
   }
-  
+
   .card::-webkit-scrollbar-thumb {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px var(--theame-color);
