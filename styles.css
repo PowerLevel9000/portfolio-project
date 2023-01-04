@@ -1,5 +1,20 @@
+:root {
+  --theame-color: #6070ff;
+}
+
 html {
   scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  width: 12px;
+  background-color: #F5F5F5;
+}
+
+html::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px var(--theame-color);
+  background-color:#fff;
 }
 
 body {
@@ -7,10 +22,6 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
-}
-
-:root {
-  --theame-color: #6070ff;
 }
 
 /* navingation bar */
@@ -210,9 +221,10 @@ main {
 
 /* project cards */
 .projects {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  height: 580px;
+  height: auto;
   margin: 0 auto 0 auto;
   row-gap: 20px;
 }
@@ -350,7 +362,7 @@ main button:hover,
   flex-direction: column;
   width: 95%;
   height: 1263px;
-  margin: 2580px auto 0 auto;
+  margin: 150px auto 0 auto;
   background: #fff;
   border-radius: 0 100px 0 0;
 }
@@ -406,7 +418,7 @@ main button:hover,
 footer {
   width: 100%;
   height: 99vh;
-  margin: -100px auto 0 auto;
+  margin: 0px auto 0 auto;
   background: url(media/footer-layer.png) right top no-repeat, url(media/footer-background.png) right top no-repeat;
   background-size: 75% 100%, 100%;
   overflow: hidden;
@@ -491,11 +503,10 @@ footer textarea {
 .card {
   display: flex;
   flex-direction: column;
-  max-width: 800px;
   width: 90%;
   height: 95vh;
   margin: 6.25%;
-  /* overflow: scroll; */
+  overflow: scroll;
   z-index: 5;
   background-color: #fff;
   border-radius: 16px;
@@ -775,12 +786,16 @@ footer textarea {
     justify-content: left;
   }
 
+  main button {
+    margin: 108px 0 0 -32px;
+  }
+
   /* about me */
   .aboutme {
     width: 100%;
     height: 140vh;
     flex-direction: row;
-    margin-top: 2100px;
+    margin-top: 150px;
   }
 
   .intro2 {
@@ -847,5 +862,72 @@ footer textarea {
 
   .mobi {
     display: none;
+  }
+
+  .card-container {
+    height: 110vh;
+  }
+
+  .card {
+    position: relative;
+    top: -5vh;
+    left: 1%;
+    background-color: #fff;
+    max-width: none;
+    width: 90%;
+    height: auto;
+    border-radius: 32px;
+  }
+
+  .card-cross {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 40px;
+  }
+
+  .card h3 {
+    font-size: 48px;
+    /* margin-bottom: 34px; */
+    margin: 4.17%;
+  }
+
+  .card-list {
+    font-size: 16px;
+    max-width: none;
+    width: 33.7%;
+    margin-left: 4.17%;
+  }
+
+  .card img {
+    max-width: none;
+    margin: 40px 4.17% 0 4.17%;
+  }
+
+  #card-description {
+    align-self: center;
+    margin-top: 70px;
+  }
+
+  .button-container {
+    align-self: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .card-button {
+    width: 47.5%;
+  }
+
+  .card::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+  }
+  
+  .card::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px var(--theame-color);
+    background-color: #fff;
   }
 }
