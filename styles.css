@@ -14,14 +14,31 @@ body {
 }
 
 /* navingation bar */
+header {
+  width: 100%;
+  display: block;
+  position: fixed;
+  background-color: #fff;
+}
 
 nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 0 auto 0 auto;
-  justify-content: space-between;
+  margin: 0 0 0 -50px;
+  justify-content: space-around;
   width: 100%;
+}
+
+nav button {
+  display: block;
+  color: var(--theame-color);
+  border: none;
+  background: transparent;
+  height: 12px;
+  width: 18px;
+  margin-right: 10px;
+  z-index: 2;
 }
 
 a {
@@ -43,17 +60,58 @@ a {
 
 .logo:hover {
   transform: scale(0.9);
+  color: #6070ff;
 }
 
 nav .desk {
   display: none;
 }
 
-nav .menu {
-  margin-right: 20px;
+nav .desk1 {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: rgba(96, 112, 255, 0.8);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  overflow-x: hidden;
+  transition: all 0.5s ease-out;
+  margin: 0 0 0 -40px;
+  overflow: hidden;
 }
 
-.menu:hover {
+nav .content {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  gap: 40px;
+  color: #fff;
+  align-items: flex-start;
+  width: 90%;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  margin: 50px;
+  list-style-type: none;
+}
+
+.content a {
+  color: white;
+}
+
+.fa-xmark {
+  font-size: 20px;
+  line-height: 20px;
+  color: white;
+}
+
+#menu:hover {
   transform: scale(1);
 }
 
@@ -64,7 +122,6 @@ main {
 }
 
 /* introduction part */
-
 .introduction {
   display: flex;
   flex-direction: column;
@@ -75,7 +132,7 @@ main {
   background-size: 100%, cover;
   width: 100%;
   height: 100vh;
-  margin: 0 auto 0 auto;
+  margin: 59px auto 0 auto;
   padding: 0;
   align-content: center;
 }
@@ -127,6 +184,7 @@ main {
 .connect h2:hover,
 .con:hover {
   font-size: 14px;
+  color: #6070ff;
 }
 
 .social {
@@ -151,7 +209,6 @@ main {
 }
 
 /* project cards */
-
 .projects {
   display: grid;
   width: 100%;
@@ -251,7 +308,7 @@ iframe {
   margin-left: 0;
 }
 
-button,
+main button,
 .submit {
   box-sizing: border-box;
   display: flex;
@@ -275,7 +332,7 @@ button,
   justify-content: center;
 }
 
-button:hover,
+main button:hover,
 .submit:hover {
   background: #6070ff;
   color: #fff;
@@ -293,7 +350,7 @@ button:hover,
   flex-direction: column;
   width: 95%;
   height: 1263px;
-  margin: 3500px auto 0 auto;
+  margin: 4300px auto 0 auto;
   background: #fff;
   border-radius: 0 100px 0 0;
 }
@@ -423,6 +480,7 @@ footer textarea {
     position: fixed;
     height: 1.5vh;
     background-color: #fff;
+    z-index: 2;
   }
 
   /* navigation bar */
@@ -442,12 +500,25 @@ footer textarea {
 
   nav .desk {
     display: flex;
+  }
+
+  .desk .content {
+    display: flex;
+    flex-direction: row;
     list-style: none;
+    color: var(--theame-color);
+    gap: 0;
+    font-size: 17px;
+    margin: 0 0 0 50px;
+  }
+
+  .desk a {
+    color: var(--theame-color);
   }
 
   nav li {
     display: flex;
-    margin: 0 2em;
+    margin: 0 1em;
     height: 5vh;
     align-items: center;
     justify-items: center;
@@ -457,6 +528,10 @@ footer textarea {
     margin-bottom: 0;
     transition: all 0.5s ease-out;
     border-radius: 10px;
+  }
+
+  nav button {
+    display: none;
   }
 
   .languages li {
@@ -470,7 +545,7 @@ footer textarea {
   }
 
   nav li:hover {
-    background-color: var(--theame-color);
+    background-color: #6070ff;
     color: #fff;
   }
 
@@ -479,7 +554,6 @@ footer textarea {
   }
 
   /* introduction part */
-
   .introduction {
     background: url(media/intro-background-desk.svg);
     background-color: #fff;
@@ -519,7 +593,6 @@ footer textarea {
   }
 
   /* projetcs */
-
   .projects {
     margin-top: 142px;
   }
@@ -564,7 +637,6 @@ footer textarea {
   }
 
   /* about me */
-
   .aboutme {
     width: 100%;
     height: 140vh;

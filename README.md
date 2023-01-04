@@ -147,28 +147,7 @@ Clone this repository to your desired folder:
 
  - click on index.html
  - open in the browser
-<!--
-Example commands:
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
-
-<!--
-### Install
-
-Install this project with: -->
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
 
 ### Usage
 
@@ -238,6 +217,12 @@ Example:
 👤 **kingnoel**
 
 - GitHub: [@kingnoel](https://github.com/kingnoel)
+
+👤 **Amazinggracee**
+
+- GitHub: [@amazinggacee](https://github.com/Amazinggracee)
+- Twitter: [@amazinggaceu](https://twitter.com/amazinggraceu)
+- LinkedIn: [Amarachi Dimkpa](https://linkedin.com/in/amarachi-dimkpa-070643183)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
