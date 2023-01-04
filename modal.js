@@ -86,3 +86,15 @@ const card4 = {
   image: 'projects-img/css-animation-1.png',
   iframe: 'https://PowerLevel9000.github.io/Panguin-animation/'
 };
+
+const projects = [card1, card2, card3, card4];
+function modal(number) {
+  const card = document.querySelector('#card');
+  card.classList.toggle('invisible');
+}
+function toggle() {
+  const card = document.querySelector('#card');
+  card.classList.toggle('invisible');
+}
+toggle();
+modal();
