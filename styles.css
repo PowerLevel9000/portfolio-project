@@ -567,6 +567,7 @@ footer textarea {
   font-style: normal;
   font-weight: 500;
   list-style-type: circle;
+
   /* i don't know why it is not working */
   font-size: 15px;
   line-height: 20px;
