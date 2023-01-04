@@ -596,7 +596,7 @@ footer textarea {
 .card .tech {
   width: fit-content;
   max-width: 330px;
-  margin-left: -5%;
+  margin-left: -7%;
 }
 
 .horizontal {
@@ -605,7 +605,7 @@ footer textarea {
 
 @media screen and (min-width: 440px) {
   .card .tech {
-    margin-left: 0;
+    margin-left: -18px;
   }
 }
 
