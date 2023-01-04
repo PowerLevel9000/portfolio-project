@@ -3,7 +3,7 @@ const card1 = {
   projectMaker: [
     'Adarsh',
     'Future Fullstack',
-    '2022'
+    '2022',
   ],
   description: `'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
     standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
@@ -11,7 +11,7 @@ const card1 = {
     typesetting, remaining essent'`,
   techList: [
     'HTML',
-    'CSS'
+    'CSS',
   ],
   link: [
     'https://PowerLevel9000.github.io/Introduction-Form/',
@@ -25,7 +25,7 @@ const card2 = {
   projectMaker: [
     'Adarsh',
     'Future Fullstack',
-    '2022'
+    '2022',
   ],
   description: `'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
     standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
@@ -33,7 +33,7 @@ const card2 = {
     typesetting, remaining essent'`,
   techList: [
     'HTML',
-    'CSS'
+    'CSS',
   ],
   link: [
     'https://Powerlevel9000.github.io/DocumentationProject/DocumentationProject.html',
@@ -43,11 +43,11 @@ const card2 = {
 };
 
 const card3 = {
-  title: `Bhardvaj's tribute`,
+  title: `Bhardvaj&apos;s tribute`,
   projectMaker: [
     'Adarsh',
     'Future Fullstack',
-    '2022'
+    '2022',
   ],
   description: `'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
     standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
@@ -55,7 +55,7 @@ const card3 = {
     typesetting, remaining essent'`,
   techList: [
     'HTML',
-    'CSS'
+    'CSS',
   ],
   link: [
     'https://codepen.io/PowerLevel9000/pen/ExReWZm',
@@ -69,7 +69,7 @@ const card4 = {
   projectMaker: [
     'Adarsh',
     'Future Fullstack',
-    '2022'
+    '2022',
   ],
   description: `'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
     standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
@@ -78,7 +78,7 @@ const card4 = {
   techList: [
     'HTML',
     'CSS',
-    'javascript'
+    'javascript',
   ],
   link: [
     'https://PowerLevel9000.github.io/Panguin-animation/',
@@ -96,34 +96,28 @@ function modal(number) {
   const list = document.querySelector('#card-list');
   list.innerHTML = '';
   const img = document.querySelector('.card-image');
-  const iframe = document.querySelector('.card-iframe')
+  const iframe = document.querySelector('.card-iframe');
   const desc = document.querySelector('#card-description');
   const techList = document.querySelector('#tech-list');
-  techList.innerHTML = ''
+  techList.innerHTML = '';
   const buttonsrc = document.querySelector('#card-button-source');
   const buttonlive = document.querySelector('#card-button-live');
 
   title.innerHTML = projects[number].title;
 
-  for (let i = 0; i < projects[number].projectMaker.length; i++) {
+  for (let i = 0; i < projects[number].projectMaker.length; i += 1) {
     const li = document.createElement('li');
     li.textContent = projects[number].projectMaker[i];
     list.appendChild(li);
   }
-  if (number === 3) {
-    img.classList.toggle('invisible');
-    iframe.classList.toggle('invisible');
-    iframe.setAttribute('src', projects[number].iframe);
-  } else {
-    iframe.classList.value = 'card-iframe invisible';
-    img.classList.value = 'card-image'
-    img.setAttribute('src', projects[number].image);
-  }
 
-  for (let i = 0; i < projects[number].techList.length; i++) {
+  img.setAttribute('src', projects[number].image);
+
+
+  for (let i = 0; i < projects[number].techList.length; i += 1) {
     const li = document.createElement('li');
     li.textContent = projects[number].techList[i];
-    techList.appendChild(li)
+    techList.appendChild(li);
   }
   desc.innerHTML = projects[number].description;
   buttonsrc.setAttribute('onclick', `window.open("${projects[number].link[1]}", "_blank");`);
@@ -132,7 +126,6 @@ function modal(number) {
 function toggle() {
   const card = document.querySelector('#card');
   card.classList.toggle('invisible');
-  iframe.classList.toggle('invisible')
 }
 toggle();
 modal();

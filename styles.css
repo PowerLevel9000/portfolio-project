@@ -8,7 +8,7 @@ html {
 
 html::-webkit-scrollbar {
   width: 12px;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
 }
 
 html::-webkit-scrollbar-thumb {
@@ -418,7 +418,7 @@ main button:hover,
 footer {
   width: 100%;
   height: 99vh;
-  margin: 0px auto 0 auto;
+  margin: 0 auto 0 auto;
   background: url(media/footer-layer.png) right top no-repeat, url(media/footer-background.png) right top no-repeat;
   background-size: 75% 100%, 100%;
   overflow: hidden;
@@ -518,8 +518,7 @@ footer textarea {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #172B4D;
-  /* margin-left: 6.25%; */
+  color: #172b4d;
   margin: 0 auto 3.25% 6.25%;
 }
 
@@ -563,11 +562,11 @@ footer textarea {
 .card-list li {
   display: flex;
   justify-content: space-evenly;
-  color: #7A869A;
-  font-family: 'Poppins';
+  color: #7a869a;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  list-style-type: circle; /*i don't know why it is not working*/
+  list-style-type: circle; /* i don't know why it is not working */
   font-size: 15px;
   line-height: 20px;
 }
@@ -584,7 +583,7 @@ footer textarea {
 
 #card-description {
   max-width: 700px;
-  font-family: 'Poppins';
+  font-family: 'Poppins',sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -597,15 +596,15 @@ footer textarea {
   max-width: 330px;
   margin-left: -5%;
 }
+
 .horizontal {
   display: none;
 }
 
-@media screen and (min-width:440px) {
+@media screen and (min-width: 440px) {
   .card .tech {
     margin-left: 0;
   }
-
 }
 
 .button-container {
@@ -908,7 +907,6 @@ footer textarea {
 
   .card h3 {
     font-size: 40px;
-    /* margin-bottom: 34px; */
     margin: 4.17%;
   }
 
@@ -942,6 +940,7 @@ footer textarea {
   }
 
   .functionality {
+    width: 30%;
     margin-top: 62px;
   }
 
@@ -963,7 +962,7 @@ footer textarea {
 
   .card::-webkit-scrollbar {
     width: 12px;
-    background-color: #F5F5F5;
+    background-color: #f5f5f5;
   }
 
   .card::-webkit-scrollbar-thumb {
