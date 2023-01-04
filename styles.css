@@ -482,7 +482,7 @@ footer textarea {
   flex-direction: column;
   align-items: center;
   background-color: rgb(193, 199, 208, 70%);
-  height: 100vh;
+  height: auto;
   z-index: 5;
   justify-content: center;
 }
@@ -491,8 +491,9 @@ footer textarea {
   display: flex;
   flex-direction: column;
   max-width: 800px;
-  width: 70%;
-  height: 90vh;
+  width: 90%;
+  height: 95vh;
+  margin: 6.25%;
   /* overflow: scroll; */
   z-index: 5;
   background-color: #fff;
@@ -561,11 +562,24 @@ footer textarea {
   margin: 3.125% 6.25%;
 }
 
+.card .tech {
+  width: 90%;
+  max-width: 330px;
+  margin-left: -5%;
+}
+
+@media screen and (min-width:440px) {
+  .card .tech {
+    margin-left: 0;
+  }
+    
+}
+
 .button-container {
   display: flex;
   align-items: center;
   max-width: 700px;
-  margin: 3.125% 6.5%;
+  margin: 3.125% 6.5% 1% 6.5%;
   height: fit-content;
   gap: 10px;
 }
@@ -584,12 +598,12 @@ footer textarea {
   border: 2px solid var(--theame-color);
   width: 100%;
   height: 51px;
-  margin: 0;
+  margin: 3.125% 0;
   transition: 0.3s;
 }
 
 .card-button:hover {
-  background-color: #1a2236;
+  background-color: var(--theame-color);
   color: #fff;
 }
 
