@@ -225,7 +225,7 @@ main {
   padding: 15px;
   row-gap: 10px;
   width: 95%;
-  height: 140vh;
+  height: 116vh;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
@@ -350,7 +350,7 @@ main button:hover,
   flex-direction: column;
   width: 95%;
   height: 1263px;
-  margin: 4300px auto 0 auto;
+  margin: 2580px auto 0 auto;
   background: #fff;
   border-radius: 0 100px 0 0;
 }
@@ -466,6 +466,7 @@ footer input:hover {
 footer input:nth-of-type(3) {
   width: 150px;
   align-self: flex-start;
+  margin: 0 0 45px 0;
 }
 
 footer textarea {
@@ -511,7 +512,8 @@ footer textarea {
   margin: 0 auto 3.25% 6.25%;
 }
 
-.card img {
+.card-iframe,
+.card-image {
   max-width: 700px;
   width: 87.5%;
   margin: 3.125% 6.25%;
