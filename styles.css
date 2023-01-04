@@ -571,6 +571,7 @@ footer textarea {
   /* i don't know why it is not working */
   font-size: 15px;
   line-height: 20px;
+  margin-left: 19px;
 }
 
 .card-list li:first-of-type {
@@ -594,7 +595,7 @@ footer textarea {
 }
 
 .card .tech {
-  width: 90%;
+  width: fit-content;
   max-width: 330px;
   margin-left: -5%;
 }
