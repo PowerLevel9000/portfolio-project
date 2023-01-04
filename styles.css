@@ -566,7 +566,8 @@ footer textarea {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  list-style-type: circle; /* i don't know why it is not working */
+  list-style-type: circle;
+  /* i don't know why it is not working */
   font-size: 15px;
   line-height: 20px;
 }
@@ -583,7 +584,7 @@ footer textarea {
 
 #card-description {
   max-width: 700px;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;

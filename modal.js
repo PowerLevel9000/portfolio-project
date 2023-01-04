@@ -43,7 +43,7 @@ const card2 = {
 };
 
 const card3 = {
-  title: `Bhardvaj&apos;s tribute`,
+  title: 'Bhardvaj&apos;s tribute',
   projectMaker: [
     'Adarsh',
     'Future Fullstack',
@@ -85,7 +85,7 @@ const card4 = {
     'https://github.com/PowerLevel9000/Panguin-animation/',
   ],
   image: 'projects-img/css-animation-1.png',
-  iframe: 'https://PowerLevel9000.github.io/Panguin-animation/'
+  iframe: 'https://PowerLevel9000.github.io/Panguin-animation/',
 };
 
 const projects = [card1, card2, card3, card4];
@@ -96,24 +96,18 @@ function modal(number) {
   const list = document.querySelector('#card-list');
   list.innerHTML = '';
   const img = document.querySelector('.card-image');
-  const iframe = document.querySelector('.card-iframe');
   const desc = document.querySelector('#card-description');
   const techList = document.querySelector('#tech-list');
   techList.innerHTML = '';
   const buttonsrc = document.querySelector('#card-button-source');
   const buttonlive = document.querySelector('#card-button-live');
-
   title.innerHTML = projects[number].title;
-
   for (let i = 0; i < projects[number].projectMaker.length; i += 1) {
     const li = document.createElement('li');
     li.textContent = projects[number].projectMaker[i];
     list.appendChild(li);
   }
-
   img.setAttribute('src', projects[number].image);
-
-
   for (let i = 0; i < projects[number].techList.length; i += 1) {
     const li = document.createElement('li');
     li.textContent = projects[number].techList[i];
