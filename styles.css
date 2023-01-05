@@ -24,7 +24,7 @@ body {
   padding: 0;
 }
 
-/* navingation bar */
+/* navigation bar */
 header {
   width: 100%;
   display: block;
@@ -266,7 +266,7 @@ iframe {
 
 .project-maker {
   display: flex;
-  width: 80%;
+  width: 46%;
   justify-content: space-between;
   margin: 25px 0 25px -40px;
   font-style: normal;
@@ -298,7 +298,7 @@ iframe {
 .tech {
   display: flex;
   width: 70%;
-  margin: 0 20px 0 -40px;
+  margin: 0 20px 0 -53px;
   list-style-type: none;
   justify-content: space-between;
   max-width: 206px;
@@ -318,7 +318,7 @@ iframe {
   font-size: 16px;
   font-weight: 500;
   line-height: 16px;
-  margin-left: 0;
+  margin-left: 12px;
 }
 
 main button,
@@ -533,10 +533,9 @@ footer textarea {
 }
 
 .card-cross {
-  /* align-self: flex-end; */
   position: relative;
   font-size: 20px;
-  color: #000;
+  color: #67798e;
   width: 30px;
   padding-top: 0;
   transition: 0.3s;
@@ -957,6 +956,13 @@ footer textarea {
   #card-description {
     align-self: center;
     margin-top: 70px;
+  }
+
+  .horizontal {
+    display: block;
+    border-radius: 20px;
+    color: #ebecf0;
+    margin-left: 25px;
   }
 
   .button-container {
