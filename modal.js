@@ -117,6 +117,43 @@ const card4 = {
 
 const projects = [card1, card2, card3, card4];
 
+const main = document.getElementsByTagName('main')[0];
+const article = document.createElement('article');
+article.setAttribute('id', 'card');
+article.className = 'card-container invisible';
+article.innerHTML = `
+  <div class="card">
+        <i id="card-cross" class="fas fa-times card-cross" onclick="toggle()"></i>
+        <h3 id="card-title">See Project header</h3>
+        <ul id="card-list" class="card-list">
+        </ul>
+        <img src="./projects-img/css-animation-1.png" class="card-image" alt="project screenshot">
+        <iframe src="" frameborder="0" class="card-iframe invisible"></iframe>
+        <div class="popupFooter">
+          <p id="card-description">
+          </p>
+          <div class="functionality">
+            <ul id="tech-list" class="tech">
+            </ul>
+            <hr class="horizontal">
+            <div class="button-container">
+              <button type="button" id="card-button-live" class="card-button">
+                See live
+                <i class="fas fa-external-link-alt"></i>
+              </button>
+              <button type="button" id="card-button-source" class="card-button">
+                See source
+                <i class="fab fa-github"></i>
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+`;
+main.appendChild(article);
+
 for (let i = 0; i < projects.length; i += 1) {
   const project = document.getElementById('project');
   const projectCard = document.createElement('div');
