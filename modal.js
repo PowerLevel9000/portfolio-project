@@ -23,7 +23,7 @@ const card1 = {
   with me; no accounts or sign-ups required don't worry about password .`,
   animation: [
     'right',
-    'left'
+    'left',
   ],
 };
 
@@ -145,7 +145,7 @@ for (let i = 0; i < projects.length; i += 1) {
             <button>See Project</button>
           </div>
         </div>
-`
+`;
   } else {
     projectCard.innerHTML = `
         <img title="Project" src="${projects[i].image}" alt="${projects[i].alt}" data-aos="fade-${projects[i].animation[0]}"
@@ -168,13 +168,11 @@ for (let i = 0; i < projects.length; i += 1) {
             <button>See Project</button>
           </div>
         </div>
-`
-  };
+`;
+  }
 
   project.appendChild(projectCard);
-};
-
-
+}
 
 function modal(number) {
   const card = document.querySelector('#card');

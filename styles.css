@@ -1,5 +1,5 @@
 :root {
-  --theame-color: #6070ff;
+  --theme-color: #6070ff;
 }
 
 html {
@@ -13,7 +13,7 @@ html::-webkit-scrollbar {
 
 html::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  -webkit-box-shadow: inset 0 0 6px var(--theame-color);
+  -webkit-box-shadow: inset 0 0 6px var(--theme-color);
   background-color: #fff;
 }
 
@@ -43,7 +43,7 @@ nav {
 
 nav button {
   display: block;
-  color: var(--theame-color);
+  color: var(--theme-color);
   border: none;
   background: transparent;
   height: 12px;
@@ -63,7 +63,7 @@ a {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  color: var(--theame-color);
+  color: var(--theme-color);
   align-items: center;
   justify-content: center;
   margin-left: 10px;
@@ -183,7 +183,7 @@ main {
 
 .connect h2,
 .con {
-  color: var(--theame-color);
+  color: var(--theme-color);
   margin-top: 0;
   padding: 0 20px 5px 20px;
   font-size: 16px;
@@ -215,7 +215,7 @@ main {
 }
 
 .social a:hover {
-  border: 1px inset var(--theame-color);
+  border: 1px inset var(--theme-color);
   border-radius: 20%;
 }
 
@@ -625,12 +625,12 @@ footer textarea {
   justify-content: space-evenly;
   align-items: center;
   background: #fff;
-  color: var(--theame-color);
+  color: var(--theme-color);
   font-family: "Poppins", sans-serif;
   font-size: 19px;
   font-weight: 500;
   line-height: 24px;
-  border: 2px solid var(--theame-color);
+  border: 2px solid var(--theme-color);
   width: 100%;
   height: 51px;
   margin: 3.125% 0;
@@ -640,7 +640,7 @@ footer textarea {
 }
 
 .card-button:hover {
-  background-color: var(--theame-color);
+  background-color: var(--theme-color);
   color: #fff;
 }
 
@@ -684,14 +684,14 @@ footer textarea {
     display: flex;
     flex-direction: row;
     list-style: none;
-    color: var(--theame-color);
+    color: var(--theme-color);
     gap: 0;
     font-size: 17px;
     margin: 0 0 0 50px;
   }
 
   .desk a {
-    color: var(--theame-color);
+    color: var(--theme-color);
   }
 
   nav li {
@@ -770,7 +770,7 @@ footer textarea {
     line-height: 60px;
   }
 
-  /* projetcs */
+  /* projects */
   .projects {
     margin-top: 142px;
   }
@@ -983,7 +983,7 @@ footer textarea {
 
   .card::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px var(--theame-color);
+    -webkit-box-shadow: inset 0 0 6px var(--theme-color);
     background-color: #fff;
   }
 }
