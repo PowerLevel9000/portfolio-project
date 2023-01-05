@@ -462,7 +462,7 @@ footer fieldset {
   flex-direction: column;
   gap: 20px;
   align-content: space-around;
-  margin-top: 50px;
+  margin-top: 26px;
   border-color: transparent;
 }
 
@@ -896,6 +896,7 @@ footer small {
   .submit {
     margin-left: auto;
     margin-right: auto;
+    margin-top: -15px;
   }
 
   .mobi {
