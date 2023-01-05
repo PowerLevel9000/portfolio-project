@@ -193,15 +193,14 @@
             love to help with it
           </p>
         </div>
-        <form action="https://formspree.io/f/mzbwnrgy" method="post">
+        <form id='form' action="https://formspree.io/f/mzbwnrgy" method="post">
           <fieldset>
             <input name="name" type="text" id="name" placeholder="Yeremias" maxlength="30" required>
             <input name="email" type="email" id="email" placeholder="natajayanj14@gmail.com" required>
             <textarea name="message" id="massage" cols="30" rows="8" placeholder="Write your message here"
               maxlength="500" required></textarea>
-              <small></small>
-            <input class="submit" type="submit" value="Get In Touch">
-            
+            <small id="alert"></small>
+            <button class="submit" type="submit" id="submit">Get In Touch</button>   
           </fieldset>
         </form>
       </div>

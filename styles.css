@@ -343,6 +343,7 @@ main button,
 
 .submit {
   justify-content: center;
+  width: fit-content;
 }
 
 main button:hover,
@@ -457,7 +458,7 @@ footer div p {
 
 footer fieldset {
   display: flex;
-  height: 300px;
+  height: fit-content;
   flex-direction: column;
   gap: 20px;
   align-content: space-around;
@@ -486,6 +487,15 @@ footer textarea {
   border-radius: 10px;
   padding-left: 10px;
   padding-top: 10px;
+}
+
+footer small {
+  width: fit-content;
+  height: max-content;
+  color: red;
+  background-color: white;
+  border-radius: 16px;
+  padding: 2.125%;
 }
 
 .card-container {
