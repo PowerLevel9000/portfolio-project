@@ -224,6 +224,10 @@ Example:
 - Twitter: [@amazinggaceu](https://twitter.com/amazinggraceu)
 - LinkedIn: [Amarachi Dimkpa](https://linkedin.com/in/amarachi-dimkpa-070643183)
 
+👤 **Leslie Aine**
+
+- GitHub: [@LeslieAine](https://github.com/LeslieAine)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
