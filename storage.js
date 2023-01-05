@@ -27,4 +27,3 @@ function refresh() {
 }
 
 window.onload = refresh;
-
