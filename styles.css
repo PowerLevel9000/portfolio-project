@@ -7,13 +7,17 @@ html {
 }
 
 html::-webkit-scrollbar {
-  width: 12px;
+  width: 10px;
   background-color: #f5f5f5;
 }
 
+html::-webkit-scrollbar:horizontal{
+  display: none;
+} 
+
 html::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  -webkit-box-shadow: inset 0 0 6px var(--theme-color);
+  -webkit-box-shadow: inset 0 0 5px var(--theme-color);
   background-color: #fff;
 }
 
@@ -182,7 +186,9 @@ main {
 }
 
 .connect h2,
-.con {
+.con,
+.connect h2:visited ,
+.con:visited {
   color: var(--theme-color);
   margin-top: 0;
   padding: 0 20px 5px 20px;
@@ -322,7 +328,9 @@ iframe {
 }
 
 main button,
-.submit {
+.submit,
+main button:visited,
+.submit:visited {
   box-sizing: border-box;
   display: flex;
   align-items: center;
@@ -341,7 +349,8 @@ main button,
   transition: all 0.5s ease-out;
 }
 
-.submit {
+.submit,
+.submit:visited {
   justify-content: center;
   width: fit-content;
   margin-top: 0;
@@ -473,10 +482,6 @@ footer input {
   border-radius: 10px;
   padding-left: 10px;
   border-color: transparent;
-}
-
-footer input:hover {
-  transform: scale(1);
 }
 
 footer input:nth-of-type(3) {
@@ -632,7 +637,8 @@ footer small {
   justify-content: space-between;
 }
 
-.card-button {
+.card-button,
+.card-button:visited {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -663,6 +669,17 @@ footer small {
 
 .invisible {
   display: none !important;
+}
+
+.card::-webkit-scrollbar {
+  width: 5px;
+  background-color: #f5f5f5;
+}
+
+.card::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 2px var(--theme-color);
+  background-color: #fff;
 }
 
 @media screen and (min-width: 769px) {
@@ -707,7 +724,8 @@ footer small {
     color: var(--theme-color);
   }
 
-  nav li {
+  nav li,
+  nav li:visited {
     display: flex;
     margin: 0 1em;
     height: 5vh;
