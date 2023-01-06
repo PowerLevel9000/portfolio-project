@@ -118,6 +118,27 @@ const card4 = {
 const projects = [card1, card2, card3, card4];
 
 const main = document.getElementsByTagName('main')[0];
+const contact = document.getElementById('contact')
+contact.innerHTML = `
+        <div>
+          <h2 title="Asking to Contact" class="contact-me">Contact me</h2>
+          <p title="Asking opportunity">
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I&apos;d
+            love to help with it
+          </p>
+        </div>
+        <form id='form' action="https://formspree.io/f/mzbwnrgy" method="post">
+          <fieldset>
+            <input name="name" type="text" id="name" placeholder="Yeremias" maxlength="30" required>
+            <input name="email" type="email" id="email" placeholder="natajayanj14@gmail.com" required>
+            <textarea name="message" id="message" cols="30" rows="8" placeholder="Write your message here"
+              maxlength="500" required></textarea>
+            <small id="alert"></small>
+            <button class="submit" type="submit" id="submit">Get In Touch</button>   
+          </fieldset>
+        </form>
+`;
 const article = document.createElement('article');
 article.setAttribute('id', 'card');
 article.className = 'card-container invisible';
