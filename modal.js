@@ -118,7 +118,7 @@ const card4 = {
 const projects = [card1, card2, card3, card4];
 
 const main = document.getElementsByTagName('main')[0];
-const contact = document.getElementById('contact')
+const contact = document.getElementById('contact');
 contact.innerHTML = `
         <div>
           <h2 title="Asking to Contact" class="contact-me">Contact me</h2>
