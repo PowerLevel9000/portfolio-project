@@ -105,7 +105,7 @@ const card4 = {
     'https://PowerLevel9000.github.io/Panguin-animation/',
     'https://github.com/PowerLevel9000/Panguin-animation/',
   ],
-  image: 'projects-img/css-animation-1.png',
+  image: 'projects-img/css-animation-2.png',
   alt: 'Penguin Animation',
   iframe: 'https://PowerLevel9000.github.io/Panguin-animation/',
   lilDescription: `I made this penguin css-animation when i was learning css month ago with free code camp
