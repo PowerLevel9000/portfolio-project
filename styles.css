@@ -144,7 +144,7 @@ main {
   background-color: #fff;
   border-radius: 0 0 0 25px;
   background-repeat: no-repeat;
-  background-size: 100%, cover;
+  background-size: 100vw, 100vw;
   width: 100%;
   height: 100vh;
   margin: 59px auto 0 auto;
@@ -428,7 +428,7 @@ footer {
   height: 99vh;
   margin: 0 auto 0 auto;
   background: url(media/footer-layer.png) right top no-repeat, url(media/footer-background.png) right top no-repeat;
-  background-size: 75% 100%, 100%;
+  background-size: 75vw 100vw, 100vw;
   overflow: hidden;
 }
 
@@ -509,7 +509,7 @@ footer small {
   flex-direction: column;
   align-items: center;
   background-color: rgb(193, 199, 208, 70%);
-  height: auto;
+  height: 129vh;
   z-index: 5;
   justify-content: center;
 }
