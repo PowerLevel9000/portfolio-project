@@ -17,7 +17,7 @@ const card1 = {
     'https://PowerLevel9000.github.io/Introduction-Form/',
     'https://github.com/PowerLevel9000/Introduction-Form/',
   ],
-  image: 'projects-img/introduction-form.png',
+  image: 'projects-img/3deviceBlack.png',
   alt: 'introduction-form',
   lilDescription: `This project good to visit to start conversations
   with me; no accounts or sign-ups required don't worry about password .`,
