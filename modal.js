@@ -1,6 +1,6 @@
 const projects = [
   {
-    title: "Event Template",
+    title: 'Event Template',
     projectMaker: [
       'Adarsh',
       'Future Fullstack',
@@ -24,10 +24,10 @@ const projects = [
     ],
     image: 'projects-img/event/desktop.png',
     imagePop: 'projects-img/event/all-devices-black.png',
-    animation: ['right', 'left',],
+    animation: ['right', 'left'],
   },
   {
-    title: "Wikipedia search",
+    title: 'Wikipedia search',
     projectMaker: [
       'Adarsh',
       'Future Fullstack',
@@ -52,10 +52,10 @@ const projects = [
     ],
     image: 'projects-img/wikipedia-search/desktop.png',
     imagePop: 'projects-img/wikipedia-search/all-devices-black.png',
-    animation: ['left', 'right',],
+    animation: ['left', 'right'],
   },
   {
-    title: "Awesome Book",
+    title: 'Awesome Book',
     projectMaker: [
       'Adarsh',
       'Future Fullstack',
@@ -80,7 +80,7 @@ const projects = [
     ],
     image: 'projects-img/awesome-books/desktop.png',
     imagePop: 'projects-img/awesome-books/all-devices-black.png',
-    animation: ['right', 'left']
+    animation: ['right', 'left'],
   },
   {
     title: 'Penguin',
@@ -112,7 +112,7 @@ const projects = [
     ],
   },
   {
-    title: "Weather App",
+    title: 'Weather App',
     projectMaker: [
       'Adarsh',
       'Future Fullstack',
@@ -137,10 +137,10 @@ const projects = [
     ],
     image: 'projects-img/weather-app/desktop.png',
     imagePop: 'projects-img/weather-app/all-devices-black.png',
-    animation: ['right', 'left',],
+    animation: ['right', 'left'],
   },
   {
-    title: "Task App",
+    title: 'Task App',
     projectMaker: [
       'Adarsh',
       'Future Fullstack',
@@ -158,7 +158,7 @@ const projects = [
       'HTML',
       'GitHub',
       'javaScript',
-      'webpack'
+      'webpack',
     ],
     link: [
       'https://powerlevel9000.github.io/Task-to-do-app/dist/',
@@ -166,9 +166,9 @@ const projects = [
     ],
     image: 'projects-img/to-do-app/desktop.png',
     imagePop: 'projects-img/to-do-app/all-devices-black.png',
-    animation: ['left', 'right',],
+    animation: ['left', 'right'],
   },
-]
+];
 
 const main = document.getElementsByTagName('main')[0];
 const contact = document.getElementById('contact');
