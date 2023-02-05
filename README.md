@@ -24,11 +24,17 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="favicon_io/android-chrome-512x512.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Adarsh's Portfolio</b></h3>
-
+  <br><br>
+  <br><br>
+  <br><br>
+  <h1>App Mock</h1>
+  <br><br>
+  <br><br>
+  <img src="appMocks/all-devices-black.png" width="12000px">
 </div>
 
 <!-- TABLE OF CONTENTS -->
