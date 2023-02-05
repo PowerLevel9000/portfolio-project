@@ -1,121 +1,174 @@
-const card1 = {
-  title: 'Introduction Form',
-  projectMaker: [
-    'Adarsh',
-    'Future Fullstack',
-    '2022',
-  ],
-  description: `'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-    make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-    typesetting, remaining essential'`,
-  techList: [
-    'HTML',
-    'CSS',
-  ],
-  link: [
-    'https://PowerLevel9000.github.io/Introduction-Form/',
-    'https://github.com/PowerLevel9000/Introduction-Form/',
-  ],
-  image: 'projects-img/3deviceBlack.png',
-  alt: 'introduction-form',
-  lilDescription: `This project good to visit to start conversations
-  with me; no accounts or sign-ups required don't worry about password .`,
-  animation: [
-    'right',
-    'left',
-  ],
-};
-
-const card2 = {
-  title: 'Tutorial',
-  projectMaker: [
-    'Adarsh',
-    'Future Fullstack',
-    '2022',
-  ],
-  description: `'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-    make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-    typesetting, remaining essential'`,
-  techList: [
-    'HTML',
-    'CSS',
-  ],
-  link: [
-    'https://Powerlevel9000.github.io/DocumentationProject/DocumentationProject.html',
-    'https://github.com/PowerLevel9000/DocumentationProject',
-  ],
-  image: 'projects-img/cyber-security.png',
-  alt: 'cyber-security',
-  lilDescription: `This is my cyber-security Document, I have made this with the template
-  of freeCodeCamp documentation project.`,
-  animation: [
-    'left',
-    'right',
-  ],
-};
-
-const card3 = {
-  title: 'Bhardvaj&apos;s tribute',
-  projectMaker: [
-    'Adarsh',
-    'Future Fullstack',
-    '2022',
-  ],
-  description: `'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-    make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-    typesetting, remaining essential'`,
-  techList: [
-    'HTML',
-    'CSS',
-  ],
-  link: [
-    'https://codepen.io/PowerLevel9000/pen/ExReWZm',
-    'https://codepen.io/PowerLevel9000/pen/ExReWZm',
-  ],
-  image: 'projects-img/tribute-project.png',
-  alt: 'tribute-project',
-  lilDescription: `This is a tribute page for indian Bhardvaj rishi who is the father of guru of
-  of guru of Pandavas and made many researches.`,
-  animation: [
-    'right',
-    'left',
-  ],
-};
-
-const card4 = {
-  title: 'Penguin',
-  projectMaker: [
-    'Adarsh',
-    'Future Fullstack',
-    '2022',
-  ],
-  description: `'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-    make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-    typesetting, remaining essential'`,
-  techList: [
-    'HTML',
-    'CSS',
-    'javascript',
-  ],
-  link: [
-    'https://PowerLevel9000.github.io/Panguin-animation/',
-    'https://github.com/PowerLevel9000/Panguin-animation/',
-  ],
-  image: 'projects-img/css-animation-2.png',
-  alt: 'Penguin Animation',
-  iframe: 'https://PowerLevel9000.github.io/Panguin-animation/',
-  lilDescription: `I made this penguin css-animation when i was learning css month ago with free code camp
-  and i love this project do checkout`,
-  animation: [
-    'left', 'right',
-  ],
-};
-
-const projects = [card1, card2, card3, card4];
+const projects = [
+  {
+    title: "Event Template",
+    projectMaker: [
+      'Adarsh',
+      'Future Fullstack',
+      '2022',
+    ],
+    lilDescription:`This template is for organizing any event in future. It is build dynamically It means you just need to
+    upload data in it and done `,
+    description: `
+      This project build with pure HTML CSS and JavaScript. IT is mostly focus on frontend designing also 
+      it is build dynamically so if you want to organize any event you just need to edit data and you are 
+      good to go. i learn many things while doing this project like core flexbox grid and complex navigation bars
+    `,
+    techList: [
+      'HTML',
+      'CSS',
+      'javaScript',
+    ],
+    link: [
+      'https://powerlevel9000.github.io/Dynamic-Event-Template/',
+      'https://github.com/PowerLevel9000/Dynamic-Event-Template/',
+    ],
+    image: 'projects-img/event/desktop.png',
+    imagePop: 'projects-img/event/all-devices-black.png',
+    animation: ['right','left']
+  },
+  {
+    title: "Wikipedia search",
+    projectMaker: [
+      'Adarsh',
+      'Future Fullstack',
+      '2022',
+    ],
+    lilDescription:`This project is build with simple implementation of javascript and api. I build this in my learning
+    period with the help of <a href="https://www.javascripttutorial.net/">Javascript Tutorial</a>.`,
+    description: `
+      This project is build with simple implementation of javascript and api. I build this in my learning
+      period with the help of <a href="https://www.javascripttutorial.net/">Javascript Tutorial</a>.
+      to search anything you just need to type there and you will find relevant Wikipedia links to read stuffs
+      and if you like my project give it a star on github. click on source button
+    `,
+    techList: [
+      'HTML',
+      'CSS',
+      'javaScript',
+    ],
+    link: [
+      'https://powerlevel9000.github.io/JavaScript-smallProjects/Wikipedia-Search-App/',
+      'https://github.com/PowerLevel9000/JavaScript-smallProjects/tree/master/Wikipedia-App/',
+    ],
+    image: 'projects-img/wikipedia-search/desktop.png',
+    imagePop: 'projects-img/wikipedia-search/all-devices-black.png',
+    animation: ['left','right']
+  },
+  {
+    title: "Awesome Book",
+    projectMaker: [
+      'Adarsh',
+      'Future Fullstack',
+      '2022',
+    ],
+    lilDescription:`This project is build for organizing your favorite books and their authors. It is build with implementation of 
+    localstorage`,
+    description: `
+      This project is build for organizing your favorite books and their authors. It is build with implementation of 
+      localstorage, and dynamic pages i.e in single page all there pages is nested. some of projects is had been reviewed and
+      approved by microverse professional coders 
+    `,
+    techList: [
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'localStorage',
+    ],
+    link: [
+      'https://powerlevel9000.github.io/Awesome-Books/dist/',
+      'https://github.com/PowerLevel9000/Awesome-Books/',
+    ],
+    image: 'projects-img/awesome-books/desktop.png',
+    imagePop: 'projects-img/awesome-books/all-devices-black.png',
+    animation: ['right','left']
+  },
+  {
+    title: 'Penguin',
+    projectMaker: [
+      'Adarsh',
+      'Future Fullstack',
+      '2022',
+    ],
+    description: `'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+      standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+      make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+      typesetting, remaining essential'`,
+    techList: [
+      'HTML',
+      'CSS',
+      'javascript',
+    ],
+    link: [
+      'https://PowerLevel9000.github.io/Panguin-animation/',
+      'https://github.com/PowerLevel9000/Panguin-animation/',
+    ],
+    imagePop: 'projects-img/css-animation-2.png',
+    alt: 'Penguin Animation',
+    iframe: 'https://PowerLevel9000.github.io/Panguin-animation/',
+    lilDescription: `I made this penguin css-animation when i was learning css month ago with free code camp
+    and i love this project do checkout`,
+    animation: [
+      'left', 'right',
+    ],
+  },
+  {
+    title: "Weather App",
+    projectMaker: [
+      'Adarsh',
+      'Future Fullstack',
+      '2022',
+    ],
+    lilDescription:`This project is build with simple implementation of javascript and api. I build this in my learning
+    period with the help of <a href="https://www.javascripttutorial.net/">Javascript Tutorial</a>.`,
+    description: `
+      This project is build with simple implementation of javascript and api. I build this in my learning
+      period with the help of my friend Coding Freak.
+      Here you can see weather status of each and every city around the world and background changes according to city weather
+      and if you like my project give it a star on github. click on source button
+    `,
+    techList: [
+      'HTML',
+      'CSS',
+      'javaScript',
+    ],
+    link: [
+      'https://powerlevel9000.github.io/JavaScript-smallProjects/Weather-app/',
+      'https://github.com/PowerLevel9000/JavaScript-smallProjects/Weather-app/',
+    ],
+    image: 'projects-img/weather-app/desktop.png',
+    imagePop: 'projects-img/weather-app/all-devices-black.png',
+    animation: ['right','left']
+  },
+  {
+    title: "Task App",
+    projectMaker: [
+      'Adarsh',
+      'Future Fullstack',
+      '2022',
+    ],
+    lilDescription:`This project is for organizing you daily task to do you can edit mark complete and delete too
+    check it out `,
+    description: `
+      This project is build with simple implementation of javascript and local Storage . I build this in my learning
+      period of microverse in which I used unit testing webpack implementation to build this project 
+      and it is useful, personally I love this app in future this website will have notification feature too 
+      according to the time you assign 
+    `,
+    techList: [
+      'HTML',
+      'GitHub',
+      'javaScript',
+      'webpack'
+    ],
+    link: [
+      'https://powerlevel9000.github.io/Task-to-do-app/dist/',
+      'https://github.com/PowerLevel9000/Task-to-do-app/',
+    ],
+    image: 'projects-img/to-do-aap/desktop.png',
+    imagePop: 'projects-img/to-do-aap/all-devices-black.png',
+    animation: ['left','right']
+  },
+]
 
 const main = document.getElementsByTagName('main')[0];
 const contact = document.getElementById('contact');
