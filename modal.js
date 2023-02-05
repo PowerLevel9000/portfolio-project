@@ -6,7 +6,7 @@ const projects = [
       'Future Fullstack',
       '2022',
     ],
-    lilDescription:`This template is for organizing any event in future. It is build dynamically It means you just need to
+    lilDescription: `This template is for organizing any event in future. It is build dynamically It means you just need to
     upload data in it and done `,
     description: `
       This project build with pure HTML CSS and JavaScript. IT is mostly focus on frontend designing also 
@@ -24,7 +24,7 @@ const projects = [
     ],
     image: 'projects-img/event/desktop.png',
     imagePop: 'projects-img/event/all-devices-black.png',
-    animation: ['right','left']
+    animation: ['right', 'left',],
   },
   {
     title: "Wikipedia search",
@@ -33,7 +33,7 @@ const projects = [
       'Future Fullstack',
       '2022',
     ],
-    lilDescription:`This project is build with simple implementation of javascript and api. I build this in my learning
+    lilDescription: `This project is build with simple implementation of javascript and api. I build this in my learning
     period with the help of <a href="https://www.javascripttutorial.net/">Javascript Tutorial</a>.`,
     description: `
       This project is build with simple implementation of javascript and api. I build this in my learning
@@ -52,7 +52,7 @@ const projects = [
     ],
     image: 'projects-img/wikipedia-search/desktop.png',
     imagePop: 'projects-img/wikipedia-search/all-devices-black.png',
-    animation: ['left','right']
+    animation: ['left', 'right',],
   },
   {
     title: "Awesome Book",
@@ -61,7 +61,7 @@ const projects = [
       'Future Fullstack',
       '2022',
     ],
-    lilDescription:`This project is build for organizing your favorite books and their authors. It is build with implementation of 
+    lilDescription: `This project is build for organizing your favorite books and their authors. It is build with implementation of 
     localstorage`,
     description: `
       This project is build for organizing your favorite books and their authors. It is build with implementation of 
@@ -80,7 +80,7 @@ const projects = [
     ],
     image: 'projects-img/awesome-books/desktop.png',
     imagePop: 'projects-img/awesome-books/all-devices-black.png',
-    animation: ['right','left']
+    animation: ['right', 'left']
   },
   {
     title: 'Penguin',
@@ -118,7 +118,7 @@ const projects = [
       'Future Fullstack',
       '2022',
     ],
-    lilDescription:`This project is build with simple implementation of javascript and api. I build this in my learning
+    lilDescription: `This project is build with simple implementation of javascript and api. I build this in my learning
     period with the help of <a href="https://www.javascripttutorial.net/">Javascript Tutorial</a>.`,
     description: `
       This project is build with simple implementation of javascript and api. I build this in my learning
@@ -137,7 +137,7 @@ const projects = [
     ],
     image: 'projects-img/weather-app/desktop.png',
     imagePop: 'projects-img/weather-app/all-devices-black.png',
-    animation: ['right','left']
+    animation: ['right', 'left',],
   },
   {
     title: "Task App",
@@ -146,7 +146,7 @@ const projects = [
       'Future Fullstack',
       '2022',
     ],
-    lilDescription:`This project is for organizing you daily task to do you can edit mark complete and delete too
+    lilDescription: `This project is for organizing you daily task to do you can edit mark complete and delete too
     check it out `,
     description: `
       This project is build with simple implementation of javascript and local Storage . I build this in my learning
@@ -166,7 +166,7 @@ const projects = [
     ],
     image: 'projects-img/to-do-app/desktop.png',
     imagePop: 'projects-img/to-do-app/all-devices-black.png',
-    animation: ['left','right']
+    animation: ['left', 'right',],
   },
 ]
 
