@@ -164,8 +164,8 @@ const projects = [
       'https://powerlevel9000.github.io/Task-to-do-app/dist/',
       'https://github.com/PowerLevel9000/Task-to-do-app/',
     ],
-    image: 'projects-img/to-do-aap/desktop.png',
-    imagePop: 'projects-img/to-do-aap/all-devices-black.png',
+    image: 'projects-img/to-do-app/desktop.png',
+    imagePop: 'projects-img/to-do-app/all-devices-black.png',
     animation: ['left','right']
   },
 ]
@@ -307,7 +307,7 @@ function modal(number) {
     list.appendChild(li);
   }
 
-  img.setAttribute('src', projects[number].image);
+  img.setAttribute('src', projects[number].imagePop);
 
   for (let i = 0; i < projects[number].techList.length; i += 1) {
     const li = document.createElement('li');
