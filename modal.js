@@ -1,6 +1,6 @@
 const projects = [
   {
-    title: "Event Template",
+    title: 'Event Template',
     projectMaker: [
       'Adarsh',
       'Future Fullstack',
@@ -27,7 +27,7 @@ const projects = [
     animation: ['right', 'left',],
   },
   {
-    title: "Wikipedia search",
+    title: 'Wikipedia search',
     projectMaker: [
       'Adarsh',
       'Future Fullstack',
@@ -55,7 +55,7 @@ const projects = [
     animation: ['left', 'right',],
   },
   {
-    title: "Awesome Book",
+    title: 'Awesome Book',
     projectMaker: [
       'Adarsh',
       'Future Fullstack',
@@ -80,7 +80,8 @@ const projects = [
     ],
     image: 'projects-img/awesome-books/desktop.png',
     imagePop: 'projects-img/awesome-books/all-devices-black.png',
-    animation: ['right', 'left']
+    animation: ['right', 'left',],
+
   },
   {
     title: 'Penguin',
@@ -112,7 +113,7 @@ const projects = [
     ],
   },
   {
-    title: "Weather App",
+    title: 'Weather App',
     projectMaker: [
       'Adarsh',
       'Future Fullstack',
@@ -140,7 +141,7 @@ const projects = [
     animation: ['right', 'left',],
   },
   {
-    title: "Task App",
+    title: 'Task App',
     projectMaker: [
       'Adarsh',
       'Future Fullstack',
@@ -158,7 +159,7 @@ const projects = [
       'HTML',
       'GitHub',
       'javaScript',
-      'webpack'
+      'webpack',
     ],
     link: [
       'https://powerlevel9000.github.io/Task-to-do-app/dist/',
@@ -168,7 +169,7 @@ const projects = [
     imagePop: 'projects-img/to-do-app/all-devices-black.png',
     animation: ['left', 'right',],
   },
-]
+];
 
 const main = document.getElementsByTagName('main')[0];
 const contact = document.getElementById('contact');
