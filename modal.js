@@ -3,7 +3,7 @@ const projects = [
     title: 'Event Template',
     projectMaker: [
       'Adarsh',
-      'Future Fullstack',
+      'Full-Stack Dev',
       '2022',
     ],
     lilDescription: `This template is for organizing any event in future. It is build dynamically It means you just need to
@@ -17,6 +17,7 @@ const projects = [
       'HTML',
       'CSS',
       'javaScript',
+      'GitHub',
     ],
     link: [
       'https://powerlevel9000.github.io/Dynamic-Event-Template/',
@@ -30,7 +31,7 @@ const projects = [
     title: 'Wikipedia search',
     projectMaker: [
       'Adarsh',
-      'Future Fullstack',
+      'Full-Stack Dev',
       '2022',
     ],
     lilDescription: `This project is build with simple implementation of javascript and api. I build this in my learning
@@ -58,7 +59,7 @@ const projects = [
     title: 'Awesome Book',
     projectMaker: [
       'Adarsh',
-      'Future Fullstack',
+      'Full-Stack Dev',
       '2022',
     ],
     lilDescription: `This project is build for organizing your favorite books and their authors. It is build with implementation of 
@@ -69,10 +70,10 @@ const projects = [
       approved by microverse professional coders 
     `,
     techList: [
-      'HTML',
       'CSS',
       'JavaScript',
       'localStorage',
+      'HTML',
     ],
     link: [
       'https://powerlevel9000.github.io/Awesome-Books/dist/',
@@ -83,39 +84,10 @@ const projects = [
     animation: ['right', 'left'],
   },
   {
-    title: 'Penguin',
-    projectMaker: [
-      'Adarsh',
-      'Future Fullstack',
-      '2022',
-    ],
-    description: `'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-      standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-      make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-      typesetting, remaining essential'`,
-    techList: [
-      'HTML',
-      'CSS',
-      'javascript',
-    ],
-    link: [
-      'https://PowerLevel9000.github.io/Panguin-animation/',
-      'https://github.com/PowerLevel9000/Panguin-animation/',
-    ],
-    imagePop: 'projects-img/css-animation-2.png',
-    alt: 'Penguin Animation',
-    iframe: 'https://PowerLevel9000.github.io/Panguin-animation/',
-    lilDescription: `I made this penguin css-animation when i was learning css month ago with free code camp
-    and i love this project do checkout`,
-    animation: [
-      'left', 'right',
-    ],
-  },
-  {
     title: 'Weather App',
     projectMaker: [
       'Adarsh',
-      'Future Fullstack',
+      'Full-Stack Dev',
       '2022',
     ],
     lilDescription: `This project is build with simple implementation of javascript and api. I build this in my learning
@@ -137,13 +109,13 @@ const projects = [
     ],
     image: 'projects-img/weather-app/desktop.png',
     imagePop: 'projects-img/weather-app/all-devices-black.png',
-    animation: ['right', 'left'],
+    animation: ['left', 'right'],
   },
   {
     title: 'Task App',
     projectMaker: [
       'Adarsh',
-      'Future Fullstack',
+      'Full-Stack Dev',
       '2022',
     ],
     lilDescription: `This project is for organizing you daily task to do you can edit mark complete and delete too
@@ -155,10 +127,10 @@ const projects = [
       according to the time you assign 
     `,
     techList: [
-      'HTML',
-      'GitHub',
+      'SASS',
       'javaScript',
       'webpack',
+      'HTML',
     ],
     link: [
       'https://powerlevel9000.github.io/Task-to-do-app/dist/',
@@ -166,7 +138,7 @@ const projects = [
     ],
     image: 'projects-img/to-do-app/desktop.png',
     imagePop: 'projects-img/to-do-app/all-devices-black.png',
-    animation: ['left', 'right'],
+    animation: ['right', 'left'],
   },
 ];
 
@@ -232,32 +204,6 @@ for (let i = 0; i < projects.length; i += 1) {
   const project = document.getElementById('project');
   const projectCard = document.createElement('div');
   projectCard.className = 'project one';
-
-  if (i === 3) {
-    projectCard.innerHTML = `
-         <iframe title="Project" src="${projects[3].iframe}" frameborder="0"
-          data-aos="fade-${projects[i].animation[0]}" data-aos-duration="1500"></iframe>
-        <div data-aos="fade-${projects[i].animation[1]}" data-aos-duration="1500">
-          <h2 title="Project Name" class="project-title">${projects[i].title}</h2>
-          <ul title="Project Maker" class="project-maker">
-            <li title="My Name" class="project-owner">${projects[i].projectMaker[0]}</li>
-            <li>${projects[i].projectMaker[1]}</li>
-            <li>${projects[i].projectMaker[2]}</li>
-          </ul>
-          <p title="Project Info" class="description info">
-          ${projects[i].lilDescription}
-          </p>
-          <ul title="Tech Used" class="tech">
-            <li>Html</li>
-            <li>Css</li>
-            <li>JavaScript</li>
-          </ul>
-          <div class=buttonLink onclick="modal(${i})">
-            <button>See Project</button>
-          </div>
-        </div>
-`;
-  } else {
     projectCard.innerHTML = `
         <img title="Project" src="${projects[i].image}" alt="${projects[i].alt}" data-aos="fade-${projects[i].animation[0]}"
           data-aos-duration="1500">
@@ -272,16 +218,15 @@ for (let i = 0; i < projects.length; i += 1) {
           ${projects[i].lilDescription}
           </p>
           <ul title="Tech Used" class="tech">
-            <li>Html</li>
-            <li>Css</li>
+            <li>${projects[i].techList[0]}</li>
+            <li>${projects[i].techList[1]}</li>
+            <li>${projects[i].techList[2]}</li>
           </ul>
           <div class=buttonLink onclick="modal(${i})">
             <button>See Project</button>
           </div>
         </div>
 `;
-  }
-
   project.appendChild(projectCard);
 }
 
