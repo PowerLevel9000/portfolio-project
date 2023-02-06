@@ -204,7 +204,7 @@ for (let i = 0; i < projects.length; i += 1) {
   const project = document.getElementById('project');
   const projectCard = document.createElement('div');
   projectCard.className = 'project one';
-    projectCard.innerHTML = `
+  projectCard.innerHTML = `
         <img title="Project" src="${projects[i].image}" alt="${projects[i].alt}" data-aos="fade-${projects[i].animation[0]}"
           data-aos-duration="1500">
         <div data-aos="fade-${projects[i].animation[1]}" data-aos-duration="1500">
