@@ -306,7 +306,7 @@ function modal(number) {
 function toggle() {
   const card = document.querySelector('#card');
   card.classList.toggle('invisible');
-  document.querySelector('#card-list').innerHTML = '';
+  document.querySelector('.card-image').setAttribute('src', '');
 }
 
 toggle();
