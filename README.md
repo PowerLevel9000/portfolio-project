@@ -23,7 +23,7 @@ After you're finished please remove all the comments and instructions!
 -->
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <!-- You are encouraged to replace this logo with your own! Otherwise, you can also remove it. -->
   <img src="favicon_io/android-chrome-512x512.png" alt="logo" width="140"  height="auto" />
   <br/>
 
@@ -67,7 +67,7 @@ After you're finished please remove all the comments and instructions!
 
 > This project is all about me but still there are many things you should know about me and those are not mentioned here. wana talk face to face ?
 
-**Adarsh's Portfolio** is just a small introduction and limited skills mentioned there due to project design
+**Adarsh's Portfolio** is just a small introduction and limited skills are mentioned there due to project design
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -104,8 +104,8 @@ After you're finished please remove all the comments and instructions!
 
 - **Animation on scroll**
 - **button hovers**
-- **navigation bar fixed on scroll**
-- **navigation menu is clickable**
+- **navigation bar **fixed on the scroll**
+- **the navigation menu is clickable**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -160,7 +160,7 @@ Clone this repository to your desired folder:
  Execute the following thing:
  
  - See project buttons
- - Navigation bar on desktop version
+ - The Navigation bar on the desktop version
 <!--
 Example command:
 
@@ -171,16 +171,15 @@ Example command:
 
 ### Run tests
 
-- Check whether animation is good or too much animation
-- check all the link on social icons are working or not 
-- also click on let's connect to mail me 
-- also i want to add call me button give suggestion 
+- Check whether an animation is a good or too much animation
+- check all the links on social icons are working or not, 
+- also, click on let's connect to mail me also, I want to add call me button to give suggestions 
 
 <!--
 Example command:
 
 ```sh
-  bin/rails test test/models/article_test.rb
+  bin/rails test/models/article_test.RB
 ```
 --->
 
@@ -216,6 +215,7 @@ Example:
 
 - GitHub: [@rpire](https://github.com/rpire)
 
+
 👤 **Author2**
 
 - GitHub: [@zewdu444](https://github.com/zewdu444)
@@ -243,8 +243,8 @@ Example:
 > Describe 1 - 3 features you will add to the project.
 
 - [ ] **popup menu**
-- [ ] **more advance projects will be added there**
-- [ ] **work on styling and lenguages**
+- [ ] **more **advanced** projects will** be added there**
+- [ ] **work on **styling and **languages**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -274,7 +274,7 @@ If you like this project...-->
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank ruben for helping me 
+I would like to thank Ruben for helping me 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -1,5 +1,37 @@
 const projects = [
   {
+    title: 'Leader Board',
+    projectMaker: [
+      'Adarsh',
+      'Full-Stack Dev',
+      '2022',
+    ],
+    lilDescription: `
+    This project is buid with an API for any game organization to add their Scores
+    on the server by the player I know there is an issue anyone could add scores lol.
+    <small>it's mobile version is not ready yet!</small>
+    `,
+    description: `
+    This project is buid with an API for any game organization to add their Scores
+    on the server by the player I know there is an issue anyone could add scores lol,
+    but as this project is build for learning Apin not building the actual prof. leaderboard.<small>
+    it's mobile version is not ready yet!</small>
+    `,
+    techList: [
+      'SASS',
+      'JavaScript',
+      'API',
+      'HTML',
+    ],
+    link: [
+      'https://powerlevel9000.github.io/LeaderboardWithApi/dist/',
+      'https://github.com/PowerLevel9000/LeaderboardWithApi/',
+    ],
+    image: 'projects-img/leaderboard/desktop.png',
+    imagePop: 'projects-img/leaderboard/all-devices-black.png',
+    animation: ['left', 'right'],
+  },
+  {
     title: 'Event Template',
     projectMaker: [
       'Adarsh',
@@ -204,10 +236,16 @@ for (let i = 0; i < projects.length; i += 1) {
   const project = document.getElementById('project');
   const projectCard = document.createElement('div');
   projectCard.className = 'project one';
+  let animation1 = 'left'
+  let animation2 = 'right'
+  if(i%2===0) {
+    animation1 = "right"
+    animation2 = "left"
+  }
   projectCard.innerHTML = `
-        <img title="Project" src="${projects[i].image}" alt="${projects[i].alt}" data-aos="fade-${projects[i].animation[0]}"
+        <img title="Project" src="${projects[i].image}" alt="${projects[i].alt}" data-aos="fade-${animation1}"
           data-aos-duration="1500">
-        <div data-aos="fade-${projects[i].animation[1]}" data-aos-duration="1500">
+        <div data-aos="fade-${animation2}" data-aos-duration="1500">
           <h2 title="Project Name" class="project-title">${projects[i].title}</h2>
           <ul title="Project Maker" class="project-maker">
             <li title="My Name" class="project-owner">${projects[i].projectMaker[0]}</li>
