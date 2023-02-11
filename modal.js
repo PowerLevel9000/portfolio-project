@@ -205,7 +205,7 @@ article.innerHTML = `
         <h3 id="card-title">See Project header</h3>
         <ul id="card-list" class="card-list">
         </ul>
-        <img src="./projects-img/css-animation-1.png" class="card-image" alt="project screenshot">
+        <img src="" class="card-image" alt="project screenshot">
         <iframe src="" frameborder="0" class="card-iframe invisible"></iframe>
         <div class="popupFooter">
           <p id="card-description">
@@ -236,11 +236,11 @@ for (let i = 0; i < projects.length; i += 1) {
   const project = document.getElementById('project');
   const projectCard = document.createElement('div');
   projectCard.className = 'project one';
-  let animation1 = 'left'
-  let animation2 = 'right'
-  if(i%2===0) {
-    animation1 = "right"
-    animation2 = "left"
+  let animation1 = 'left';
+  let animation2 = 'right';
+  if (i % 2 === 0) {
+    animation1 = 'right';
+    animation2 = 'left';
   }
   projectCard.innerHTML = `
         <img title="Project" src="${projects[i].image}" alt="${projects[i].alt}" data-aos="fade-${animation1}"
@@ -306,6 +306,7 @@ function modal(number) {
 function toggle() {
   const card = document.querySelector('#card');
   card.classList.toggle('invisible');
+  document.querySelector('#card-list').innerHTML = '';
 }
 
 toggle();
