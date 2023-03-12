@@ -1,5 +1,36 @@
 const projects = [
   {
+    title: 'Shopholic',
+    projectMaker: [
+      'Adarsh',
+      'Full-Stack Dev',
+      '2022',
+    ],
+    lilDescription: `
+    This project is React oriented, I build this while learning react and redux however i used context 
+    API in this project, It is a E-Commerce website for mobile selling  
+    `,
+    description: `
+    This project is React oriented, I build this while learning react and redux however i used context 
+    API in this project, It is a E-Commerce website for mobile selling, in this you will see Cart funtionality,
+    , Payment Getway,  add to cart, remove from cart, Quantity increment decrement for products,
+    <small>work in progress ....</small>
+    `,
+    techList: [
+      'React',
+      'Context',
+      'Styled C.',
+      'CSS',
+    ],
+    link: [
+      'https://react-e-commerce-store-react.netlify.app/',
+      'https://github.com/PowerLevel9000/e-commerce/',
+    ],
+    image: 'projects-img/shopholic/desktop.png',
+    imagePop: 'projects-img/shopholic/all-devices-black.png',
+
+  },
+  {
     title: 'Leader Board',
     projectMaker: [
       'Adarsh',
@@ -29,7 +60,7 @@ const projects = [
     ],
     image: 'projects-img/leaderboard/desktop.png',
     imagePop: 'projects-img/leaderboard/all-devices-black.png',
-    animation: ['left', 'right'],
+
   },
   {
     title: 'Event Template',
@@ -57,7 +88,7 @@ const projects = [
     ],
     image: 'projects-img/event/desktop.png',
     imagePop: 'projects-img/event/all-devices-black.png',
-    animation: ['right', 'left'],
+
   },
   {
     title: 'Wikipedia search',
@@ -85,7 +116,7 @@ const projects = [
     ],
     image: 'projects-img/wikipedia-search/desktop.png',
     imagePop: 'projects-img/wikipedia-search/all-devices-black.png',
-    animation: ['left', 'right'],
+
   },
   {
     title: 'Awesome Book',
@@ -113,7 +144,7 @@ const projects = [
     ],
     image: 'projects-img/awesome-books/desktop.png',
     imagePop: 'projects-img/awesome-books/all-devices-black.png',
-    animation: ['right', 'left'],
+
   },
   {
     title: 'Weather App',
@@ -141,7 +172,7 @@ const projects = [
     ],
     image: 'projects-img/weather-app/desktop.png',
     imagePop: 'projects-img/weather-app/all-devices-black.png',
-    animation: ['left', 'right'],
+
   },
   {
     title: 'Task App',
@@ -170,7 +201,7 @@ const projects = [
     ],
     image: 'projects-img/to-do-app/desktop.png',
     imagePop: 'projects-img/to-do-app/all-devices-black.png',
-    animation: ['right', 'left'],
+
   },
 ];
 
