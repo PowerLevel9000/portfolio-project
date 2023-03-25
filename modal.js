@@ -207,37 +207,41 @@ const projects = [
     imagePop: 'projects-img/weather-app/all-devices-black.png',
 
   },
-// commented data becuse as a data scientist cum web - dev never delete data
+  // commented data becuse as a data scientist cum web - dev never delete data
 
-//   {
-//     title: 'Task App',
-//     projectMaker: [
-//       'Adarsh',
-//       'Full-Stack Dev',
-//       '2022',
-//     ],
-//     lilDescription: `This project is for organizing you daily task to do you can edit mark complete and delete too
-//     check it out `,
-//     description: `
-//       This project is build with simple implementation of javascript and local Storage . I build this in my learning
-//       period of microverse in which I used unit testing webpack implementation to build this project 
-//       and it is useful, personally I love this app in future this website will have notification feature too 
-//       according to the time you assign 
-//     `,
-//     techList: [
-//       'SASS',
-//       'javaScript',
-//       'webpack',
-//       'HTML',
-//     ],
-//     link: [
-//       'https://powerlevel9000.github.io/Task-to-do-app/dist/',
-//       'https://github.com/PowerLevel9000/Task-to-do-app/',
-//     ],
-//     image: 'projects-img/to-do-app/desktop.png',
-//     imagePop: 'projects-img/to-do-app/all-devices-black.png',
+  //   {
+  //     title: 'Task App',
+  //     projectMaker: [
+  //       'Adarsh',
+  //       'Full-Stack Dev',
+  //       '2022',
+  //     ],
+  //     lilDescription: `This project is for organizing you daily task to do
+  //     you can edit mark complete and delete too
+  //     check it out `,
+  //     description: `
+  //       This project is build with simple implementation of javascript and local
+  //       Storage . I build this in my learning
+  //       period of microverse in which I used unit testing webpack implementation
+  //       to build this project
+  //       and it is useful, personally I love this app in future this website will
+  //       have notification feature too
+  //       according to the time you assign
+  //     `,
+  //     techList: [
+  //       'SASS',
+  //       'javaScript',
+  //       'webpack',
+  //       'HTML',
+  //     ],
+  //     link: [
+  //       'https://powerlevel9000.github.io/Task-to-do-app/dist/',
+  //       'https://github.com/PowerLevel9000/Task-to-do-app/',
+  //     ],
+  //     image: 'projects-img/to-do-app/desktop.png',
+  //     imagePop: 'projects-img/to-do-app/all-devices-black.png',
 
-//   },
+  //   },
 ];
 
 const main = document.getElementsByTagName('main')[0];
