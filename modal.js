@@ -1,10 +1,43 @@
 const projects = [
   {
+    title: 'Market Analysis',
+    projectMaker: [
+      'Adarsh',
+      'Full-Stack Dev',
+      '2023',
+    ],
+    lilDescription: `
+    This is a React-Based Project, in this website you can analyze your stocks 
+    and compare them to optimize your profit, it works with the financial API 
+    `,
+    description: `
+    This is a React-Based Project, in this website you can analyze your 
+    stocks and compare them to optimize your profit, it works with the 
+    financial API, and apart from this you will find responsive design 
+    clean UI, and in the future maybe we have some more features for 
+    checking bitcoin and searching company stock by name and a detailed 
+    navigation bar 
+    `,
+    techList: [
+      'React',
+      'Context',
+      'Styled C.',
+      'CSS',
+    ],
+    link: [
+      'https://stock-analysis-io.netlify.app/',
+      'https://github.com/PowerLevel9000/stock-market/',
+    ],
+    image: 'projects-img/stock-market/desktop.png',
+    imagePop: 'projects-img/stock-market/all-devices-black.png',
+
+  },
+  {
     title: 'Shopholic',
     projectMaker: [
       'Adarsh',
       'Full-Stack Dev',
-      '2022',
+      '2023',
     ],
     lilDescription: `
     This project is React oriented, I build this while learning react and redux however i used context 
@@ -123,7 +156,7 @@ const projects = [
     projectMaker: [
       'Adarsh',
       'Full-Stack Dev',
-      '2022',
+      '2023',
     ],
     lilDescription: `This project is build for organizing your favorite books and their authors. It is build with implementation of 
     localstorage`,
@@ -174,35 +207,37 @@ const projects = [
     imagePop: 'projects-img/weather-app/all-devices-black.png',
 
   },
-  {
-    title: 'Task App',
-    projectMaker: [
-      'Adarsh',
-      'Full-Stack Dev',
-      '2022',
-    ],
-    lilDescription: `This project is for organizing you daily task to do you can edit mark complete and delete too
-    check it out `,
-    description: `
-      This project is build with simple implementation of javascript and local Storage . I build this in my learning
-      period of microverse in which I used unit testing webpack implementation to build this project 
-      and it is useful, personally I love this app in future this website will have notification feature too 
-      according to the time you assign 
-    `,
-    techList: [
-      'SASS',
-      'javaScript',
-      'webpack',
-      'HTML',
-    ],
-    link: [
-      'https://powerlevel9000.github.io/Task-to-do-app/dist/',
-      'https://github.com/PowerLevel9000/Task-to-do-app/',
-    ],
-    image: 'projects-img/to-do-app/desktop.png',
-    imagePop: 'projects-img/to-do-app/all-devices-black.png',
+// commented data becuse as a data scientist cum web - dev never delete data
 
-  },
+//   {
+//     title: 'Task App',
+//     projectMaker: [
+//       'Adarsh',
+//       'Full-Stack Dev',
+//       '2022',
+//     ],
+//     lilDescription: `This project is for organizing you daily task to do you can edit mark complete and delete too
+//     check it out `,
+//     description: `
+//       This project is build with simple implementation of javascript and local Storage . I build this in my learning
+//       period of microverse in which I used unit testing webpack implementation to build this project 
+//       and it is useful, personally I love this app in future this website will have notification feature too 
+//       according to the time you assign 
+//     `,
+//     techList: [
+//       'SASS',
+//       'javaScript',
+//       'webpack',
+//       'HTML',
+//     ],
+//     link: [
+//       'https://powerlevel9000.github.io/Task-to-do-app/dist/',
+//       'https://github.com/PowerLevel9000/Task-to-do-app/',
+//     ],
+//     image: 'projects-img/to-do-app/desktop.png',
+//     imagePop: 'projects-img/to-do-app/all-devices-black.png',
+
+//   },
 ];
 
 const main = document.getElementsByTagName('main')[0];
