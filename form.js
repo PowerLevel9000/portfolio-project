@@ -1,51 +1,48 @@
 const form = document.getElementById('form');
-const name = document.getElementById('name');
-const email = document.getElementById('email');
-const message = document.getElementById('message');
-const submit = document.getElementById('submit');
+const nameField = document.getElementById('name');
+const emailField = document.getElementById('email');
+const messageField = document.getElementById('message');
+const submitButton = document.getElementById('submit');
 const error = document.getElementById('alert');
-error.innerHTml = '';
+error.style.display = 'none';
 
-function validate() {
-  form.addEventListener('submit', (e) => {
-    if (name.value.length <= 3) {
-      error.innerHTML = 'enter the full name';
-      e.preventDefault();
-    } else if (email.value !== email.value.toLowerCase() || email.value.length < 1) {
-      e.preventDefault();
-      error.innerHTML = 'email field has to be in lower case';
-    } else if (message.value.length < 5 || message.value === undefined) {
-      e.preventDefault();
-      error.innerHTML = 'your message is valuable more words please';
-    } else {
-      error.innerHTML = '';
-      form.submit();
-    }
-  });
-  if (name.value.length <= 3) {
-    if (name.value.length === 0) {
-      error.innerHTML = '';
-    } else {
-      error.innerHTML = 'enter the full name';
-    }
-  } else if (email.value !== email.value.toLowerCase() || email.value.length < 1) {
-    if (email.value.length === 0) {
-      error.innerHTML = '';
-    } else {
-      error.innerHTML = 'email field has to be in lower case';
-    }
-  } else if (message.value.length < 5 || message.value === undefined) {
-    if (message.value.length === 0) {
-      error.innerHTML = '';
-    } else {
-      error.innerHTML = 'your message is valuable more words please';
-    }
-  } else {
-    error.innerHTML = '';
+function validateName() {
+  if (nameField.value.length <= 3) {
+    error.innerHTML = 'Enter the full name';
+    error.style.display = 'block';
+    return false;
   }
+  return true;
 }
 
-name.addEventListener('input', validate);
-email.addEventListener('input', validate);
-message.addEventListener('input', validate);
-submit.addEventListener('click', validate);
+function validateEmail() {
+  if (emailField.value !== emailField.value.toLowerCase() || emailField.value.length < 1) {
+    error.innerHTML = 'Email field has to be in lower case';
+    error.style.display = 'block';
+    return false;
+  }
+  return true;
+}
+
+function validateMessage() {
+  if (messageField.value.length < 5 || messageField.value === '') {
+    error.innerHTML = 'Your message is valuable more words please';
+    error.style.display = 'block';
+    return false;
+  }
+  return true;
+}
+
+function validateForm() {
+  if (validateName() && validateEmail() && validateMessage()) {
+    error.style.display = 'none';
+    return true;
+  }
+  return false;
+}
+
+nameField.addEventListener('input', validateName);
+emailField.addEventListener('input', validateEmail);
+messageField.addEventListener('input', validateMessage);
+form.addEventListener('input', validateForm);
+submitButton.addEventListener('click', validateForm);
