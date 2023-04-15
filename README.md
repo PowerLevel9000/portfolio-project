@@ -3,13 +3,9 @@
 <div align="center">
   <img src="favicon_io/android-chrome-512x512.png" alt="logo" width="140"  height="auto" />
   <br/>
-
   <h3><b>Adarsh's Portfolio</b></h3>
   <br><br>
-  <br><br>
-  <br><br>
   <h1>App Mock</h1>
-  <br><br>
   <br><br>
   <img src="appMocks/all-devices-black.png" width="12000px">
 </div>
