@@ -312,7 +312,9 @@ function modal(number) {
   const domTechList = document.querySelector('#tech-list');
   const buttonSrc = document.querySelector('#card-button-source');
   const buttonLive = document.querySelector('#card-button-live');
-  const { title, projectMaker, imagePop, techList, description, link } = projects[number];
+  const {
+    title, projectMaker, imagePop, techList, description, link,
+  } = projects[number];
   card.classList.toggle('invisible');
   list.innerHTML = '';
   domTechList.innerHTML = '';
@@ -344,4 +346,3 @@ function toggle() {
 }
 modal();
 toggle();
-

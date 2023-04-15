@@ -3,13 +3,13 @@ const contactForm = document.getElementById('form');
 
 function storeForm() {
   const myStorage = {};
-  formFields.forEach(field => {
+  formFields.forEach((field) => {
     myStorage[field] = contactForm[field].value;
   });
   localStorage.setItem('storage', JSON.stringify(myStorage));
 }
 
-formFields.forEach(field => {
+formFields.forEach((field) => {
   contactForm[field].addEventListener('change', storeForm);
 });
 
@@ -17,7 +17,7 @@ function refresh() {
   if (localStorage.getItem('storage')) {
     const oldStorage = localStorage.getItem('storage');
     const newStorage = JSON.parse(oldStorage);
-    formFields.forEach(field => {
+    formFields.forEach((field) => {
       contactForm[field].value = newStorage[field];
     });
   }
