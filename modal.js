@@ -21,7 +21,7 @@ const projects = [
     techList: [
       'React',
       'Context',
-      'Styled C.',
+      'Styled',
       'CSS',
     ],
     link: [
@@ -52,7 +52,7 @@ const projects = [
     techList: [
       'React',
       'Context',
-      'Styled C.',
+      'Styled',
       'CSS',
     ],
     link: [
@@ -207,41 +207,6 @@ const projects = [
     imagePop: 'projects-img/weather-app/all-devices-black.png',
 
   },
-  // commented data becuse as a data scientist cum web - dev never delete data
-
-  //   {
-  //     title: 'Task App',
-  //     projectMaker: [
-  //       'Adarsh',
-  //       'Full-Stack Dev',
-  //       '2022',
-  //     ],
-  //     lilDescription: `This project is for organizing you daily task to do
-  //     you can edit mark complete and delete too
-  //     check it out `,
-  //     description: `
-  //       This project is build with simple implementation of javascript and local
-  //       Storage . I build this in my learning
-  //       period of microverse in which I used unit testing webpack implementation
-  //       to build this project
-  //       and it is useful, personally I love this app in future this website will
-  //       have notification feature too
-  //       according to the time you assign
-  //     `,
-  //     techList: [
-  //       'SASS',
-  //       'javaScript',
-  //       'webpack',
-  //       'HTML',
-  //     ],
-  //     link: [
-  //       'https://powerlevel9000.github.io/Task-to-do-app/dist/',
-  //       'https://github.com/PowerLevel9000/Task-to-do-app/',
-  //     ],
-  //     image: 'projects-img/to-do-app/desktop.png',
-  //     imagePop: 'projects-img/to-do-app/all-devices-black.png',
-
-  //   },
 ];
 
 const main = document.getElementsByTagName('main')[0];
@@ -339,38 +304,37 @@ for (let i = 0; i < projects.length; i += 1) {
 }
 
 function modal(number) {
-  const card = document.querySelector('#card');
-  card.classList.toggle('invisible');
-  const title = document.querySelector('#card-title');
+  const domTitle = document.querySelector('#card-title');
   const list = document.querySelector('#card-list');
-  list.innerHTML = '';
-
+  const card = document.querySelector('#card');
   const img = document.querySelector('.card-image');
   const desc = document.querySelector('#card-description');
-  const techList = document.querySelector('#tech-list');
-  techList.innerHTML = '';
-
+  const domTechList = document.querySelector('#tech-list');
   const buttonSrc = document.querySelector('#card-button-source');
   const buttonLive = document.querySelector('#card-button-live');
+  const { title, projectMaker, imagePop, techList, description, link } = projects[number];
+  card.classList.toggle('invisible');
+  list.innerHTML = '';
+  domTechList.innerHTML = '';
 
-  title.innerHTML = projects[number].title;
-  for (let i = 0; i < projects[number].projectMaker.length; i += 1) {
+  domTitle.innerHTML = title;
+  for (let i = 0; i < projectMaker.length; i += 1) {
     const li = document.createElement('li');
-    li.textContent = projects[number].projectMaker[i];
+    li.textContent = projectMaker[i];
     list.appendChild(li);
   }
 
-  img.setAttribute('src', projects[number].imagePop);
+  img.setAttribute('src', imagePop);
 
-  for (let i = 0; i < projects[number].techList.length; i += 1) {
+  for (let i = 0; i < techList.length; i += 1) {
     const li = document.createElement('li');
-    li.textContent = projects[number].techList[i];
-    techList.appendChild(li);
+    li.textContent = techList[i];
+    domTechList.appendChild(li);
   }
 
-  desc.innerHTML = projects[number].description;
-  buttonSrc.setAttribute('onclick', `window.open("${projects[number].link[1]}", "_blank");`);
-  buttonLive.setAttribute('onclick', `window.open("${projects[number].link[0]}", "_blank");`);
+  desc.innerHTML = description;
+  buttonSrc.setAttribute('onclick', `window.open("${link[1]}", "_blank");`);
+  buttonLive.setAttribute('onclick', `window.open("${link[0]}", "_blank");`);
 }
 
 function toggle() {
@@ -378,6 +342,6 @@ function toggle() {
   card.classList.toggle('invisible');
   document.querySelector('.card-image').setAttribute('src', '');
 }
-
-toggle();
 modal();
+toggle();
+
