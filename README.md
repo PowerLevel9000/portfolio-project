@@ -31,22 +31,21 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 Adarsh's Portfolio <a name="about-project"></a>
 
-> This project is all about me but still there are many things you should know about me and those are not mentioned here. wana talk face to face ?
+This project is all about me but still there are many things you should know about me and those are not mentioned here. want to meet one on one?
 
-**Adarsh's Portfolio** is just a small introduction and limited skills are mentioned there due to project design
+**Portfolio** is just a small introduction and limited skills are mentioned there due to project design
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> In this project me and my collaborators used many skills, tech and libraries
+In this project me and my collaborators used many skills, tech and libraries
 
 <details>
   <summary>Documentation</summary>
@@ -63,7 +62,7 @@
 </details>
 
 <details>
-<summary>Annimation</summary>
+<summary>Animation</summary>
   <ul>
     <li><a href="https://michalsnik.github.io/aos/">Aos.js</a></li>
   </ul>
@@ -73,11 +72,11 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Following features you should observe
+Following features you should observe
 
 - **Animation on scroll**
 - **button hovers**
-- **navigation bar **fixed on the scroll**
+- **navigation bar fixed on the scroll**
 - **the navigation menu is clickable**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -86,7 +85,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> This link will guide you to my project
+This link will guide you to my project 😁😁
 
 - [Live Demo Link](https://powerlevel9000.github.io/portfolio-project/)
 
@@ -94,11 +93,8 @@
 
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started <a name="getting-started"></a>
 
->For having local file and project you can fork this repo 
-
->And for making changes you you should follow prerequisites
+For getting started yu can fork this repo or clone it in desired directory and make sure to follow [Prerequisites](#prerequisites) correctly
 
 
 ### Prerequisites
@@ -107,12 +103,21 @@ In order to edit this project you need:
 
  - Any text editor such as note pad and word pad
  - A web browser
+ - Node js installed
+ - An IDE
 
-#### suggested 
- - visual studio code
- - atom 
- - visual code 
+#### Suggested IDE
+ - Visual studio code `I prefer this one 🙃🙃`
+ - Atom 
+ - Sublime 
+ - IntelliJ IDEA
+ - Visual code 
 
+### Install
+
+```
+npm i 
+```
 ### Setup
 
 Clone this repository to your desired folder:
@@ -126,21 +131,21 @@ Clone this repository to your desired folder:
  Execute the following thing:
  
  - See project buttons
- - The Navigation bar on the desktop version
+ - Navigation bar on desktop version
+
 
 ### Run tests
-
-- Check whether an animation is a good or too much animation
-- check all the links on social icons are working or not, 
-- also, click on let's connect to mail me also, I want to add call me button to give suggestions 
-
+> For now we don't have automated test but you can test it manually
+- Check whether animation is good
+- check all the link on social icons are working or not 
+- also click on Adarsh in about page to mail me
+- also i want to add call me button give suggestion 
 
 ### Deployment
 
 You can deploy this project using:
 
-- for this repo and use git hub pages to deploy it 
-
+- for this repo and use GitHub pages to deploy it 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -185,11 +190,11 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
 - [ ] **popup menu**
-- [ ] **more **advanced** projects will** be added there**
-- [ ] **work on **styling and **languages**
+- [ ] **more **advanced** projects will be added there**
+- [ ] **work on styling and languages**
+- [ ] **A Carousel in project popup**
+- [ ] **An accordion in About me Section**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
