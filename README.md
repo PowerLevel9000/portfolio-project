@@ -15,6 +15,7 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
+  - [🧪 Linters And Deployment](#linters)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
@@ -40,6 +41,10 @@
 This project is all about me but still there are many things you should know about me and those are not mentioned here. want to meet one on one?
 
 **Portfolio** is just a small introduction and limited skills are mentioned there due to project design
+
+
+## 🧪 Linters And Deployment <a name="linters"></a>
+[![Linters](https://github.com/PowerLevel9000/portfolio-project/actions/workflows/linters.yml/badge.svg)](https://github.com/PowerLevel9000/portfolio-project/actions/workflows/linters.yml)[![pages-build-deployment](https://github.com/PowerLevel9000/portfolio-project/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/PowerLevel9000/portfolio-project/actions/workflows/pages/pages-build-deployment)
 
 ## 🛠 Built With <a name="built-with"></a>
 
